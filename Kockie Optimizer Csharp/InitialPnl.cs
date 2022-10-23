@@ -17,11 +17,6 @@ namespace Kockie_Optimizer_Csharp
             InitializeComponent();
         }
 
-        private void InitialPnl_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void timer1_Tick(object sender, EventArgs e)
         {
             lblTimer.Text = DateTime.Now.ToLongTimeString();

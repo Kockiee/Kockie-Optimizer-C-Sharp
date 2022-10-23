@@ -1,0 +1,30 @@
+-norestrictions
+-percentvidmem
+-availablevidmem
+-novblank
+-nomemrestrict
+-novblank
+-noprecache
+-framelimit 0
+-dx11
+-width 1920
+-height 1080
+-fullscreen
+-ignoreDifferentVideoCard
+-anisotropicQualityLeve (0)
+-disableHyperthreading
+-hdr
+-HDStreamingInFlight
+-pedLodBias
+-grassQuality (0)
+-noInGameDOF
+-particleQuality (0)
+-postFX (0)
+-reflectionQuality (1)
+-SSAO (0)
+-shaderQuality (0)
+-waterQuality (1)
+-textureQuality (0)
+-tessellation (0)
+-fxaa (0)
+-shadowQuality (0)

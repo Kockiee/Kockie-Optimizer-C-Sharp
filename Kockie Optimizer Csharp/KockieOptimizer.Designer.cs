@@ -242,6 +242,7 @@
             // 
             // guna2Separator2
             // 
+            this.guna2Separator2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.guna2Separator2.Location = new System.Drawing.Point(35, 90);
             this.guna2Separator2.Name = "guna2Separator2";
             this.guna2Separator2.Size = new System.Drawing.Size(124, 14);
@@ -249,6 +250,7 @@
             // 
             // guna2Separator1
             // 
+            this.guna2Separator1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.guna2Separator1.Location = new System.Drawing.Point(35, 45);
             this.guna2Separator1.Name = "guna2Separator1";
             this.guna2Separator1.Size = new System.Drawing.Size(124, 14);
@@ -256,6 +258,7 @@
             // 
             // guna2vSeparator2
             // 
+            this.guna2vSeparator2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.guna2vSeparator2.Location = new System.Drawing.Point(57, 517);
             this.guna2vSeparator2.Name = "guna2vSeparator2";
             this.guna2vSeparator2.Size = new System.Drawing.Size(10, 34);
@@ -263,6 +266,7 @@
             // 
             // guna2vSeparator1
             // 
+            this.guna2vSeparator1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.guna2vSeparator1.Location = new System.Drawing.Point(122, 517);
             this.guna2vSeparator1.Name = "guna2vSeparator1";
             this.guna2vSeparator1.Size = new System.Drawing.Size(10, 34);
