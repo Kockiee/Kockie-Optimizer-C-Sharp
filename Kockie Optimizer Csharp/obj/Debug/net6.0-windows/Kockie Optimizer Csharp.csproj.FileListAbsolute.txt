@@ -1,0 +1,19 @@
+C:\Users\Kockie\Documents\programação\Kockie Optimizer Csharp\Kockie Optimizer Csharp\bin\Debug\net6.0-windows\Kockie Optimizer Csharp.exe
+C:\Users\Kockie\Documents\programação\Kockie Optimizer Csharp\Kockie Optimizer Csharp\bin\Debug\net6.0-windows\Kockie Optimizer Csharp.deps.json
+C:\Users\Kockie\Documents\programação\Kockie Optimizer Csharp\Kockie Optimizer Csharp\bin\Debug\net6.0-windows\Kockie Optimizer Csharp.runtimeconfig.json
+C:\Users\Kockie\Documents\programação\Kockie Optimizer Csharp\Kockie Optimizer Csharp\bin\Debug\net6.0-windows\Kockie Optimizer Csharp.dll
+C:\Users\Kockie\Documents\programação\Kockie Optimizer Csharp\Kockie Optimizer Csharp\bin\Debug\net6.0-windows\Kockie Optimizer Csharp.pdb
+C:\Users\Kockie\Documents\programação\Kockie Optimizer Csharp\Kockie Optimizer Csharp\bin\Debug\net6.0-windows\Guna.UI2.dll
+C:\Users\Kockie\Documents\programação\Kockie Optimizer Csharp\Kockie Optimizer Csharp\obj\Debug\net6.0-windows\Kockie Optimizer Csharp.csproj.AssemblyReference.cache
+C:\Users\Kockie\Documents\programação\Kockie Optimizer Csharp\Kockie Optimizer Csharp\obj\Debug\net6.0-windows\Kockie_Optimizer_Csharp.Form1.resources
+C:\Users\Kockie\Documents\programação\Kockie Optimizer Csharp\Kockie Optimizer Csharp\obj\Debug\net6.0-windows\Kockie Optimizer Csharp.csproj.GenerateResource.cache
+C:\Users\Kockie\Documents\programação\Kockie Optimizer Csharp\Kockie Optimizer Csharp\obj\Debug\net6.0-windows\Kockie Optimizer Csharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kockie\Documents\programação\Kockie Optimizer Csharp\Kockie Optimizer Csharp\obj\Debug\net6.0-windows\Kockie Optimizer Csharp.AssemblyInfoInputs.cache
+C:\Users\Kockie\Documents\programação\Kockie Optimizer Csharp\Kockie Optimizer Csharp\obj\Debug\net6.0-windows\Kockie Optimizer Csharp.AssemblyInfo.cs
+C:\Users\Kockie\Documents\programação\Kockie Optimizer Csharp\Kockie Optimizer Csharp\obj\Debug\net6.0-windows\Kockie Optimizer Csharp.csproj.CoreCompileInputs.cache
+C:\Users\Kockie\Documents\programação\Kockie Optimizer Csharp\Kockie Optimizer Csharp\obj\Debug\net6.0-windows\Kockie Optimizer Csharp.csproj.CopyComplete
+C:\Users\Kockie\Documents\programação\Kockie Optimizer Csharp\Kockie Optimizer Csharp\obj\Debug\net6.0-windows\Kockie Optimizer Csharp.dll
+C:\Users\Kockie\Documents\programação\Kockie Optimizer Csharp\Kockie Optimizer Csharp\obj\Debug\net6.0-windows\refint\Kockie Optimizer Csharp.dll
+C:\Users\Kockie\Documents\programação\Kockie Optimizer Csharp\Kockie Optimizer Csharp\obj\Debug\net6.0-windows\Kockie Optimizer Csharp.pdb
+C:\Users\Kockie\Documents\programação\Kockie Optimizer Csharp\Kockie Optimizer Csharp\obj\Debug\net6.0-windows\Kockie Optimizer Csharp.genruntimeconfig.cache
+C:\Users\Kockie\Documents\programação\Kockie Optimizer Csharp\Kockie Optimizer Csharp\obj\Debug\net6.0-windows\ref\Kockie Optimizer Csharp.dll
