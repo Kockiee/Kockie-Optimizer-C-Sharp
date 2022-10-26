@@ -143,6 +143,27 @@ namespace Kockie_Optimizer_Csharp.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap kisspng_2_17_league_of_legends_world_championship_2_16_lea_sgl_lol_5b6d458ebf28a3_544377731533887886783 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-2-17-league-of-legends-world-championship-2-16-lea-sgl-lol-5b6d458ebf28a3" +
+                        ".544377731533887886783", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap league_of_legends_riot_games_logo_5 {
+            get {
+                object obj = ResourceManager.GetObject("league-of-legends-riot-games-logo-5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap robloxlogo_freelogovectors_net_ {
             get {
                 object obj = ResourceManager.GetObject("robloxlogo-freelogovectors.net_", resourceCulture);

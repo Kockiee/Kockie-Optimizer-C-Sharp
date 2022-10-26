@@ -9,6 +9,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Platforms>AnyCPU;x86;x64</Platforms>
     <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Files\kocki.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,6 +21,10 @@
   <ItemGroup>
     <None Remove="Files\FortAlto\GameUserSettings.ini" />
     <None Remove="Files\FortBaixo\GameUserSettings.ini" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Files\kocki.ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -94,6 +99,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Files\LolAlto\" />
+    <Folder Include="Files\LolBaixo\" />
     <Folder Include="Files\RobloxBaixo\" />
     <Folder Include="Files\ValBaixo\" />
     <Folder Include="Files\ValAlto\" />

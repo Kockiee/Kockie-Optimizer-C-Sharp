@@ -124,28 +124,34 @@
   <data name="robloxlogo-freelogovectors.net_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\robloxlogo-freelogovectors.net_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="2560px-Valorant_logo_-_pink_color_version.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2560px-Valorant_logo_-_pink_color_version.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="25231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\25231.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fortnite-logo-7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fortnite-logo-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="free-youtube-logo-icon-2431-thumb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\free-youtube-logo-icon-2431-thumb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="gta-v-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gta-v-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2560px-Valorant_logo_-_pink_color_version.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2560px-Valorant_logo_-_pink_color_version.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="counter-strike-global-offensive-cs-go-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\counter-strike-global-offensive-cs-go-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="kisspng-2-17-league-of-legends-world-championship-2-16-lea-sgl-lol-5b6d458ebf28a3.544377731533887886783" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-2-17-league-of-legends-world-championship-2-16-lea-sgl-lol-5b6d458ebf28a3.544377731533887886783.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="warzone-logo-white-shadow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\warzone-logo-white-shadow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="25231" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\25231.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="discord-logo-4-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\discord-logo-4-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="free-youtube-logo-icon-2431-thumb" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\free-youtube-logo-icon-2431-thumb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="league-of-legends-riot-games-logo-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\league-of-legends-riot-games-logo-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
