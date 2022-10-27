@@ -1,2 +1,3 @@
 # Kockie-Optimizer-C-sharp
- Version of my program (Kockie Optimizer) made in C# .net 6.0
+ Versão do meu programa (Kockie Optimizer) feita em C# .net 6.0
+ Doações Por Pix: mgueli1208@gmail.com.
