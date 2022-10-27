@@ -24,6 +24,7 @@ namespace Kockie_Optimizer_Csharp
             if (tgbHpet.Checked)
             {
                 Utilities.EnableHPET();
+
             }
             else
             {

@@ -57,6 +57,7 @@
             this.lblAutor = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -400,12 +401,24 @@
             this.guna2BorderlessForm1.ResizeForm = false;
             this.guna2BorderlessForm1.TransparentWhileDrag = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.Red;
+            this.label1.Location = new System.Drawing.Point(363, 591);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(414, 17);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Algumas Funções Podem Não Estar Funcionando Corretamente !!!";
+            // 
             // KockieOptimizer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.ClientSize = new System.Drawing.Size(1048, 641);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblAutor);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnNext);
@@ -455,5 +468,6 @@
         private Guna.UI2.WinForms.Guna2VSeparator guna2vSeparator1;
         private Guna.UI2.WinForms.Guna2ShadowForm guna2ShadowForm1;
         private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
+        private Label label1;
     }
 }

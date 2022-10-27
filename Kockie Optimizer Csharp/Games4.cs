@@ -32,11 +32,11 @@ namespace Kockie_Optimizer_Csharp
         {
             if (chkState == 0)
             {
-                configinLOL("");
+                configinLOL("LolAlto");
             }
             else if (chkState == 1)
             {
-                configinLOL("");
+                configinLOL("LolBaixo");
             }
             else
             {
@@ -47,7 +47,6 @@ namespace Kockie_Optimizer_Csharp
         private void configinLOL(string localoftheconfiguration)
         {
             string config = Application.StartupPath + $"Files\\{localoftheconfiguration}\\game.cfg";
-            MessageBox.Show("Após a modificação ser concluída, vá para as propriedades do jogo (na Steam) e nas opções de inicialização, adicione a seguinte linha de comando: +exec game.cfg");
             if (Directory.Exists("C:\\Riot Games\\League of Legends\\Config"))
             {
                 string destiny = "C:\\Riot Games\\League of Legends\\Config";
