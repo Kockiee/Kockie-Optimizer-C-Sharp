@@ -177,6 +177,7 @@
             // 
             // btnNext
             // 
+            this.btnNext.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnNext.BackColor = System.Drawing.Color.Transparent;
             this.btnNext.BorderColor = System.Drawing.Color.White;
             this.btnNext.BorderRadius = 10;
@@ -200,6 +201,7 @@
             // 
             // btnBack
             // 
+            this.btnBack.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnBack.BackColor = System.Drawing.Color.Transparent;
             this.btnBack.BorderColor = System.Drawing.Color.White;
             this.btnBack.BorderRadius = 10;
@@ -259,6 +261,7 @@
             // 
             // guna2vSeparator2
             // 
+            this.guna2vSeparator2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.guna2vSeparator2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.guna2vSeparator2.Location = new System.Drawing.Point(57, 517);
             this.guna2vSeparator2.Name = "guna2vSeparator2";
@@ -267,6 +270,7 @@
             // 
             // guna2vSeparator1
             // 
+            this.guna2vSeparator1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.guna2vSeparator1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.guna2vSeparator1.Location = new System.Drawing.Point(122, 517);
             this.guna2vSeparator1.Name = "guna2vSeparator1";
@@ -371,14 +375,16 @@
             // 
             // pnlMain
             // 
+            this.pnlMain.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pnlMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.pnlMain.Location = new System.Drawing.Point(211, 86);
+            this.pnlMain.Location = new System.Drawing.Point(211, 81);
             this.pnlMain.Name = "pnlMain";
             this.pnlMain.Size = new System.Drawing.Size(755, 487);
             this.pnlMain.TabIndex = 4;
             // 
             // lblAutor
             // 
+            this.lblAutor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblAutor.BackColor = System.Drawing.Color.Transparent;
             this.lblAutor.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblAutor.ForeColor = System.Drawing.Color.White;
@@ -403,6 +409,7 @@
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.Red;
