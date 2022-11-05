@@ -3,6 +3,7 @@ using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Drawing;
 using System.Linq;
@@ -19,12 +20,15 @@ namespace Kockie_Optimizer_Csharp
             InitializeComponent();
         }
 
+        private void UT_Load(object sender, EventArgs e)
+        {
+        }
+
         private void tgbHpet_CheckedChanged(object sender, EventArgs e)
         {
             if (tgbHpet.Checked)
             {
                 Utilities.EnableHPET();
-
             }
             else
             {
@@ -160,11 +164,6 @@ namespace Kockie_Optimizer_Csharp
             }
         }
 
-
-        private void UT_Load(object sender, EventArgs e)
-        {
-        }
-
         private void tgbAutomaticUpdates_CheckedChanged(object sender, EventArgs e)
         {
             if (tgbAutomaticUpdates.Checked)
@@ -183,6 +182,7 @@ namespace Kockie_Optimizer_Csharp
                 Registry.SetValue(@"HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager", "OemPreInstalledAppsEnabled", "1", RegistryValueKind.DWord);
                 Registry.SetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsStore", "AutoDownload", "4", RegistryValueKind.DWord);
                 Utilities.StartService("DoSvc");
+                MessageBox.Show("Windows update desativado !");
             }
             else
             {
@@ -203,6 +203,7 @@ namespace Kockie_Optimizer_Csharp
                 Registry.SetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsStore", "AutoDownload", "2", RegistryValueKind.DWord);
                 Registry.SetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\Maintenance", "MaintenanceDisabled", "1", RegistryValueKind.DWord);
                 Utilities.StopService("DoSvc");
+                MessageBox.Show("Windows update desativado !");
             }
         }
     }

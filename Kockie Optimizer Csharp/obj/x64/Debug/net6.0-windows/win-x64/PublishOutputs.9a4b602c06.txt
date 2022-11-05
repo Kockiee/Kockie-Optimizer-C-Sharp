@@ -1,0 +1,24 @@
+C:\Users\Miguel\Desktop\Kockie Optimizer - x64 (64bit)\Kockie Optimizer Csharp.pdb
+C:\Users\Miguel\Desktop\Kockie Optimizer - x64 (64bit)\Files\FortAlto\GameUserSettings.ini
+C:\Users\Miguel\Desktop\Kockie Optimizer - x64 (64bit)\Files\FortBaixo\GameUserSettings.ini
+C:\Users\Miguel\Desktop\Kockie Optimizer - x64 (64bit)\Files\CsAlto\boost.cfg
+C:\Users\Miguel\Desktop\Kockie Optimizer - x64 (64bit)\Files\CsBaixo\boost.cfg
+C:\Users\Miguel\Desktop\Kockie Optimizer - x64 (64bit)\Files\GtavAlto\Commandline.txt
+C:\Users\Miguel\Desktop\Kockie Optimizer - x64 (64bit)\Files\GtavBaixo\Commandline.txt
+C:\Users\Miguel\Desktop\Kockie Optimizer - x64 (64bit)\Files\LolAlto\game.cfg
+C:\Users\Miguel\Desktop\Kockie Optimizer - x64 (64bit)\Files\LolBaixo\game.cfg
+C:\Users\Miguel\Desktop\Kockie Optimizer - x64 (64bit)\Files\RobloxAlto\GlobalBasicSettings_13.xml
+C:\Users\Miguel\Desktop\Kockie Optimizer - x64 (64bit)\Files\RobloxBaixo\GlobalBasicSettings_13.xml
+C:\Users\Miguel\Desktop\Kockie Optimizer - x64 (64bit)\Files\ValAlto\GameUserSettings.ini
+C:\Users\Miguel\Desktop\Kockie Optimizer - x64 (64bit)\Files\ValAlto\RiotUserSettings.ini
+C:\Users\Miguel\Desktop\Kockie Optimizer - x64 (64bit)\Files\ValBaixo\GameUserSettings.ini
+C:\Users\Miguel\Desktop\Kockie Optimizer - x64 (64bit)\Files\ValBaixo\RiotUserSettings.ini
+C:\Users\Miguel\Desktop\Kockie Optimizer - x64 (64bit)\Files\WzAlto\config.cfg
+C:\Users\Miguel\Desktop\Kockie Optimizer - x64 (64bit)\Files\WzBaixo\config.cfg
+C:\Users\Miguel\Desktop\Kockie Optimizer - x64 (64bit)\D3DCompiler_47_cor3.dll
+C:\Users\Miguel\Desktop\Kockie Optimizer - x64 (64bit)\PenImc_cor3.dll
+C:\Users\Miguel\Desktop\Kockie Optimizer - x64 (64bit)\PresentationNative_cor3.dll
+C:\Users\Miguel\Desktop\Kockie Optimizer - x64 (64bit)\vcruntime140_cor3.dll
+C:\Users\Miguel\Desktop\Kockie Optimizer - x64 (64bit)\wpfgfx_cor3.dll
+C:\Users\Miguel\Desktop\Kockie Optimizer - x64 (64bit)\sni.dll
+C:\Users\Miguel\Desktop\Kockie Optimizer - x64 (64bit)\Kockie Optimizer Csharp.exe
