@@ -11,7 +11,6 @@ namespace Kockie_Optimizer_Csharp
             InitializeComponent();
         }
 
-        public bool PanelMainState;
         public int FormGameState;
 
         [System.Runtime.InteropServices.DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -29,20 +28,20 @@ namespace Kockie_Optimizer_Csharp
         private void lblOtimizarWindows_Click(object sender, EventArgs e)
         {
             HideNB();
-            OpenForm<OW>();
+            Utilities.OpenForm<OW>();
         }
 
         private void lblOtimizarJogos_Click(object sender, EventArgs e)
         {
             btnNext.Show();
             btnBack.Show();
-            OpenForm<Games1>();
+            Utilities.OpenForm<Games1>();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             HideNB();
-            OpenForm<InitialPnl>();
+            Utilities.OpenForm<InitialPnl>();
             var os = System.Environment.OSVersion.ToString();
             lblOS.Text = os;
         }
@@ -79,53 +78,32 @@ namespace Kockie_Optimizer_Csharp
         {
             lblDATE.Text = DateTime.Now.ToLongTimeString();
         }
-        private void OpenForm<MiForm>() where MiForm : Form, new()
-        {
-            Form formulario;
-            formulario = pnlMain.Controls.OfType<MiForm>().FirstOrDefault();
-                                                                                     
-            if (formulario == null)
-            {
-                formulario = new MiForm();
-                formulario.TopLevel = false;
-                formulario.FormBorderStyle = FormBorderStyle.None;
-                formulario.Dock = DockStyle.Fill;
-                pnlMain.Controls.Add(formulario);
-                pnlMain.Tag = formulario;
-                formulario.Show();
-                formulario.BringToFront();
-            }
-            else
-            {
-                formulario.BringToFront();
-            }
-        }
 
         private void btnNext_Click(object sender, EventArgs e)
         {
             if(FormGameState == 0)
             {
-                OpenForm<Games2>();
+                Utilities.OpenForm<Games2>();
                 FormGameState = 1;
             }
             else if(FormGameState == 1)
             {
-                OpenForm<Games3>();
+                Utilities.OpenForm<Games3>();
                 FormGameState = 2;
             }
             else if (FormGameState == 2)
             {
-                OpenForm<Games4>();
+                Utilities.OpenForm<Games4>();
                 FormGameState = 3;
             }
             else if (FormGameState == 3)
             {
-                OpenForm<Games1>();
+                Utilities.OpenForm<Games1>();
                 FormGameState = 0;
             }
             else
             {
-                OpenForm<Games2>();
+                Utilities.OpenForm<Games2>();
                 FormGameState = 1;
             }
         }
@@ -134,27 +112,27 @@ namespace Kockie_Optimizer_Csharp
         {
             if (FormGameState == 0)
             {
-                OpenForm<Games4>();
+                Utilities.OpenForm<Games4>();
                 FormGameState = 3;
             }
             else if (FormGameState == 1)
             {
-                OpenForm<Games1>();
+                Utilities.OpenForm<Games1>();
                 FormGameState = 0;
             }
             else if (FormGameState == 2)
             {
-                OpenForm<Games2>();
+                Utilities.OpenForm<Games2>();
                 FormGameState = 1;
             }
             else if (FormGameState == 3)
             {
-                OpenForm<Games3>();
+                Utilities.OpenForm<Games3>();
                 FormGameState = 2;
             }
             else
             {
-                OpenForm<Games3>();
+                Utilities.OpenForm<Games3>();
                 FormGameState = 2;
             }
         }
@@ -180,7 +158,37 @@ namespace Kockie_Optimizer_Csharp
         private void lblUtilities_Click(object sender, EventArgs e)
         {
             HideNB();
-            OpenForm<UT>();
+            Utilities.OpenForm<UT>();
+        }
+
+        private void lblOtimizarJogos_MouseHover(object sender, EventArgs e)
+        {
+            lblOtimizarJogos.ForeColor = Color.Silver;
+        }
+
+        private void lblOtimizarWindows_MouseHover(object sender, EventArgs e)
+        {
+            lblOtimizarWindows.ForeColor = Color.Silver;
+        }
+
+        private void lblUtilities_MouseHover(object sender, EventArgs e)
+        {
+            lblUtilities.ForeColor = Color.Silver;
+        }
+
+        private void lblOtimizarJogos_MouseLeave(object sender, EventArgs e)
+        {
+            lblOtimizarJogos.ForeColor = Color.White;
+        }
+
+        private void lblUtilities_MouseLeave(object sender, EventArgs e)
+        {
+            lblUtilities.ForeColor = Color.White;
+        }
+
+        private void lblOtimizarWindows_MouseLeave(object sender, EventArgs e)
+        {
+            lblOtimizarWindows.ForeColor = Color.White;
         }
     }
 }

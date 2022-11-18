@@ -2,6 +2,7 @@
 using Microsoft.Win32;
 using System.Diagnostics;
 using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Security.AccessControl;
 using System.ServiceProcess;
 
@@ -72,6 +73,29 @@ namespace Kockie_Optimizer_Csharp
                 {
                     MessageBox.Show(ex.Message);
                 }
+            }
+        }
+
+        internal static void OpenForm<MiForm>() where MiForm : Form, new()
+        {
+            Panel pnlMain = Application.OpenForms["KockieOptimizer"].Controls["pnlMain"] as Panel;
+            Form formulario;
+            formulario = pnlMain.Controls.OfType<MiForm>().FirstOrDefault();
+
+            if (formulario == null)
+            {
+                formulario = new MiForm();
+                formulario.TopLevel = false;
+                formulario.FormBorderStyle = FormBorderStyle.None;
+                formulario.Dock = DockStyle.Fill;
+                pnlMain.Controls.Add(formulario);
+                pnlMain.Tag = formulario;
+                formulario.Show();
+                formulario.BringToFront();
+            }
+            else
+            {
+                formulario.BringToFront();
             }
         }
 

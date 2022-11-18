@@ -67,7 +67,6 @@ namespace Kockie_Optimizer_Csharp
                 Utilities.StopService("diagsvc");
                 Utilities.StopService("diagnosticshub.standardcollector.service");
                 Utilities.StopService("dmwappushservice");
-                Utilities.RunCommand("sc config \"RemoteRegistry\" start= disabled");
                 Utilities.StopService("DiagTrack");
                 Utilities.StopService("diagnosticshub.standardcollector.service");
                 Utilities.StopService("dmwappushservice");
@@ -76,8 +75,6 @@ namespace Kockie_Optimizer_Csharp
                 Registry.SetValue(@"HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\diagnosticshub.standardcollector.service", "Start", "4", RegistryValueKind.DWord);
                 Registry.SetValue(@"HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\dmwappushservice", "Start", "4", RegistryValueKind.DWord);
                 Registry.SetValue(@"HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DcpSvc", "Start", "4", RegistryValueKind.DWord);
-                Utilities.RunCommand("reg add \"HKLM\\Software\\Microsoft\\PolicyManager\\default\\WiFi\\AllowAutoConnectToWiFiSenseHotspots\" /v value /t REG_DWORD /d 0 /f");
-                Utilities.RunCommand("reg add \"HKLM\\Software\\Microsoft\\PolicyManager\\default\\WiFi\\AllowWiFiHotSpotReporting\" /v value /t REG_DWORD /d 0 /f");
                 Registry.SetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System", "PublishUserActivities", "0", RegistryValueKind.DWord);
                 Registry.SetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\SQMClient\Windows", "CEIPEnable", "0", RegistryValueKind.DWord);
                 Registry.SetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\AppCompat", "AITEnable", "0", RegistryValueKind.DWord);
@@ -124,11 +121,14 @@ namespace Kockie_Optimizer_Csharp
                 {
                     lclMachine.CreateSubKey(@"SOFTWARE\Microsoft\Windows\CurrentVersion\Notifications\Settings\Windows.SystemToast.SecurityAndMaintenance").SetValue("Enabled", 0);
                 }
+                Utilities.RunCommand("sc config \"RemoteRegistry\" start= disabled");
+                Utilities.RunCommand("reg add \"HKLM\\Software\\Microsoft\\PolicyManager\\default\\WiFi\\AllowAutoConnectToWiFiSenseHotspots\" /v value /t REG_DWORD /d 0 /f");
+                Utilities.RunCommand("reg add \"HKLM\\Software\\Microsoft\\PolicyManager\\default\\WiFi\\AllowWiFiHotSpotReporting\" /v value /t REG_DWORD /d 0 /f");
                 MessageBox.Show("Tweaks are complete.");
             }
-            catch
+            catch (Exception ex)
             {
-                MessageBox.Show("Fatal Error on try this action");
+                MessageBox.Show($"Fatal Error on try this action: {ex}");
             }
         }
 

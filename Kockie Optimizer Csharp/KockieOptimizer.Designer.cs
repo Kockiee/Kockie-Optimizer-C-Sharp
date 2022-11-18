@@ -44,7 +44,7 @@
             this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
             this.guna2vSeparator2 = new Guna.UI2.WinForms.Guna2VSeparator();
             this.guna2vSeparator1 = new Guna.UI2.WinForms.Guna2VSeparator();
-            this.btnUtilities = new System.Windows.Forms.Label();
+            this.lblUtilities = new System.Windows.Forms.Label();
             this.btnYoutube = new Guna.UI2.WinForms.Guna2ImageButton();
             this.btnGithub = new Guna.UI2.WinForms.Guna2ImageButton();
             this.btnDiscord = new Guna.UI2.WinForms.Guna2ImageButton();
@@ -230,7 +230,7 @@
             this.panel2.Controls.Add(this.guna2Separator1);
             this.panel2.Controls.Add(this.guna2vSeparator2);
             this.panel2.Controls.Add(this.guna2vSeparator1);
-            this.panel2.Controls.Add(this.btnUtilities);
+            this.panel2.Controls.Add(this.lblUtilities);
             this.panel2.Controls.Add(this.btnYoutube);
             this.panel2.Controls.Add(this.btnGithub);
             this.panel2.Controls.Add(this.btnDiscord);
@@ -277,31 +277,33 @@
             this.guna2vSeparator1.Size = new System.Drawing.Size(10, 34);
             this.guna2vSeparator1.TabIndex = 0;
             // 
-            // btnUtilities
+            // lblUtilities
             // 
-            this.btnUtilities.AutoSize = true;
-            this.btnUtilities.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnUtilities.ForeColor = System.Drawing.Color.White;
-            this.btnUtilities.Location = new System.Drawing.Point(41, 106);
-            this.btnUtilities.Name = "btnUtilities";
-            this.btnUtilities.Size = new System.Drawing.Size(111, 30);
-            this.btnUtilities.TabIndex = 5;
-            this.btnUtilities.Text = "Utilidades";
-            this.btnUtilities.Click += new System.EventHandler(this.lblUtilities_Click);
+            this.lblUtilities.AutoSize = true;
+            this.lblUtilities.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblUtilities.ForeColor = System.Drawing.Color.White;
+            this.lblUtilities.Location = new System.Drawing.Point(41, 106);
+            this.lblUtilities.Name = "lblUtilities";
+            this.lblUtilities.Size = new System.Drawing.Size(111, 30);
+            this.lblUtilities.TabIndex = 5;
+            this.lblUtilities.Text = "Utilidades";
+            this.lblUtilities.Click += new System.EventHandler(this.lblUtilities_Click);
+            this.lblUtilities.MouseLeave += new System.EventHandler(this.lblUtilities_MouseLeave);
+            this.lblUtilities.MouseHover += new System.EventHandler(this.lblUtilities_MouseHover);
             // 
             // btnYoutube
             // 
             this.btnYoutube.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnYoutube.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnYoutube.HoverState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnYoutube.HoverState.ImageSize = new System.Drawing.Size(40, 40);
             this.btnYoutube.Image = global::Kockie_Optimizer_Csharp.Properties.Resources.free_youtube_logo_icon_2431_thumb;
             this.btnYoutube.ImageOffset = new System.Drawing.Point(0, 0);
             this.btnYoutube.ImageRotate = 0F;
             this.btnYoutube.ImageSize = new System.Drawing.Size(32, 32);
-            this.btnYoutube.Location = new System.Drawing.Point(12, 512);
+            this.btnYoutube.Location = new System.Drawing.Point(0, 509);
             this.btnYoutube.Name = "btnYoutube";
             this.btnYoutube.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnYoutube.Size = new System.Drawing.Size(41, 43);
+            this.btnYoutube.Size = new System.Drawing.Size(62, 55);
             this.btnYoutube.TabIndex = 4;
             this.btnYoutube.Click += new System.EventHandler(this.btnYoutube_Click);
             // 
@@ -309,16 +311,16 @@
             // 
             this.btnGithub.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnGithub.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnGithub.HoverState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnGithub.HoverState.ImageSize = new System.Drawing.Size(40, 40);
             this.btnGithub.Image = global::Kockie_Optimizer_Csharp.Properties.Resources._25231;
             this.btnGithub.ImageOffset = new System.Drawing.Point(0, 0);
             this.btnGithub.ImageRotate = 0F;
             this.btnGithub.ImageSize = new System.Drawing.Size(32, 32);
             this.btnGithub.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnGithub.Location = new System.Drawing.Point(142, 514);
+            this.btnGithub.Location = new System.Drawing.Point(131, 509);
             this.btnGithub.Name = "btnGithub";
             this.btnGithub.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnGithub.Size = new System.Drawing.Size(38, 41);
+            this.btnGithub.Size = new System.Drawing.Size(62, 55);
             this.btnGithub.TabIndex = 3;
             this.btnGithub.Click += new System.EventHandler(this.btnGithub_Click);
             // 
@@ -326,15 +328,15 @@
             // 
             this.btnDiscord.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnDiscord.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnDiscord.HoverState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnDiscord.HoverState.ImageSize = new System.Drawing.Size(40, 40);
             this.btnDiscord.Image = global::Kockie_Optimizer_Csharp.Properties.Resources.discord_logo_4_1;
             this.btnDiscord.ImageOffset = new System.Drawing.Point(0, 0);
             this.btnDiscord.ImageRotate = 0F;
             this.btnDiscord.ImageSize = new System.Drawing.Size(32, 32);
-            this.btnDiscord.Location = new System.Drawing.Point(74, 513);
+            this.btnDiscord.Location = new System.Drawing.Point(63, 509);
             this.btnDiscord.Name = "btnDiscord";
             this.btnDiscord.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnDiscord.Size = new System.Drawing.Size(40, 42);
+            this.btnDiscord.Size = new System.Drawing.Size(62, 55);
             this.btnDiscord.TabIndex = 2;
             this.btnDiscord.Click += new System.EventHandler(this.btnDiscord_Click);
             // 
@@ -349,6 +351,8 @@
             this.lblOtimizarJogos.TabIndex = 1;
             this.lblOtimizarJogos.Text = "Otimizar Jogos";
             this.lblOtimizarJogos.Click += new System.EventHandler(this.lblOtimizarJogos_Click);
+            this.lblOtimizarJogos.MouseLeave += new System.EventHandler(this.lblOtimizarJogos_MouseLeave);
+            this.lblOtimizarJogos.MouseHover += new System.EventHandler(this.lblOtimizarJogos_MouseHover);
             // 
             // lblOtimizarWindows
             // 
@@ -362,6 +366,8 @@
             this.lblOtimizarWindows.TabIndex = 0;
             this.lblOtimizarWindows.Text = "Otimizar Windows";
             this.lblOtimizarWindows.Click += new System.EventHandler(this.lblOtimizarWindows_Click);
+            this.lblOtimizarWindows.MouseLeave += new System.EventHandler(this.lblOtimizarWindows_MouseLeave);
+            this.lblOtimizarWindows.MouseHover += new System.EventHandler(this.lblOtimizarWindows_MouseHover);
             // 
             // timer1
             // 
@@ -375,7 +381,7 @@
             // 
             // pnlMain
             // 
-            this.pnlMain.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.pnlMain.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.pnlMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.pnlMain.Location = new System.Drawing.Point(211, 81);
             this.pnlMain.Name = "pnlMain";
@@ -467,7 +473,7 @@
         private Guna.UI2.WinForms.Guna2ImageButton btnYoutube;
         private Guna.UI2.WinForms.Guna2ImageButton btnGithub;
         private Guna.UI2.WinForms.Guna2ImageButton btnDiscord;
-        private Label btnUtilities;
+        private Label lblUtilities;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblAutor;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator2;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator1;

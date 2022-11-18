@@ -41,6 +41,8 @@
             this.chk3 = new Guna.UI2.WinForms.Guna2CustomRadioButton();
             this.chk4 = new Guna.UI2.WinForms.Guna2CustomRadioButton();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
+            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -55,7 +57,7 @@
             this.btnOT2.FillColor = System.Drawing.Color.DodgerBlue;
             this.btnOT2.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnOT2.ForeColor = System.Drawing.Color.White;
-            this.btnOT2.Location = new System.Drawing.Point(468, 365);
+            this.btnOT2.Location = new System.Drawing.Point(460, 381);
             this.btnOT2.Name = "btnOT2";
             this.btnOT2.Size = new System.Drawing.Size(180, 45);
             this.btnOT2.TabIndex = 23;
@@ -72,7 +74,7 @@
             this.btnOT1.FillColor = System.Drawing.Color.DodgerBlue;
             this.btnOT1.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnOT1.ForeColor = System.Drawing.Color.White;
-            this.btnOT1.Location = new System.Drawing.Point(67, 231);
+            this.btnOT1.Location = new System.Drawing.Point(61, 253);
             this.btnOT1.Name = "btnOT1";
             this.btnOT1.Size = new System.Drawing.Size(180, 45);
             this.btnOT1.TabIndex = 22;
@@ -84,44 +86,44 @@
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.AliceBlue;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(535, 322);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(550, 337);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(78, 23);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(46, 23);
             this.guna2HtmlLabel4.TabIndex = 21;
-            this.guna2HtmlLabel4.Text = "PC FRACO";
+            this.guna2HtmlLabel4.Text = "Baixo";
             // 
             // guna2HtmlLabel5
             // 
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.AliceBlue;
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(535, 272);
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(550, 287);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(75, 23);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(35, 23);
             this.guna2HtmlLabel5.TabIndex = 19;
-            this.guna2HtmlLabel5.Text = "PC FORTE";
+            this.guna2HtmlLabel5.Text = "Alto";
             // 
             // guna2HtmlLabel3
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.AliceBlue;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(138, 190);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(150, 212);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(78, 23);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(46, 23);
             this.guna2HtmlLabel3.TabIndex = 17;
-            this.guna2HtmlLabel3.Text = "PC FRACO";
+            this.guna2HtmlLabel3.Text = "Baixo";
             // 
             // guna2HtmlLabel2
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.AliceBlue;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(138, 140);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(150, 162);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(75, 23);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(35, 23);
             this.guna2HtmlLabel2.TabIndex = 15;
-            this.guna2HtmlLabel2.Text = "PC FORTE";
+            this.guna2HtmlLabel2.Text = "Alto";
             // 
             // guna2PictureBox2
             // 
@@ -156,7 +158,7 @@
             this.chk1.CheckedState.InnerColor = System.Drawing.Color.White;
             this.chk1.CheckedState.InnerOffset = 10;
             this.chk1.ForeColor = System.Drawing.Color.Transparent;
-            this.chk1.Location = new System.Drawing.Point(107, 138);
+            this.chk1.Location = new System.Drawing.Point(119, 160);
             this.chk1.Name = "chk1";
             this.chk1.Size = new System.Drawing.Size(25, 25);
             this.chk1.TabIndex = 24;
@@ -176,7 +178,7 @@
             this.chk2.CheckedState.InnerColor = System.Drawing.Color.White;
             this.chk2.CheckedState.InnerOffset = 10;
             this.chk2.ForeColor = System.Drawing.Color.Transparent;
-            this.chk2.Location = new System.Drawing.Point(107, 188);
+            this.chk2.Location = new System.Drawing.Point(119, 210);
             this.chk2.Name = "chk2";
             this.chk2.Size = new System.Drawing.Size(25, 25);
             this.chk2.TabIndex = 25;
@@ -196,7 +198,7 @@
             this.chk3.CheckedState.InnerColor = System.Drawing.Color.White;
             this.chk3.CheckedState.InnerOffset = 10;
             this.chk3.ForeColor = System.Drawing.Color.Transparent;
-            this.chk3.Location = new System.Drawing.Point(504, 270);
+            this.chk3.Location = new System.Drawing.Point(519, 285);
             this.chk3.Name = "chk3";
             this.chk3.Size = new System.Drawing.Size(25, 25);
             this.chk3.TabIndex = 26;
@@ -216,7 +218,7 @@
             this.chk4.CheckedState.InnerColor = System.Drawing.Color.White;
             this.chk4.CheckedState.InnerOffset = 10;
             this.chk4.ForeColor = System.Drawing.Color.Transparent;
-            this.chk4.Location = new System.Drawing.Point(504, 320);
+            this.chk4.Location = new System.Drawing.Point(519, 335);
             this.chk4.Name = "chk4";
             this.chk4.Size = new System.Drawing.Size(25, 25);
             this.chk4.TabIndex = 27;
@@ -232,12 +234,36 @@
             this.folderBrowserDialog1.Description = "Selecione o diretório onde seu gta v está instalado (pasta raiz) !";
             this.folderBrowserDialog1.UseDescriptionForTitle = true;
             // 
+            // guna2HtmlLabel1
+            // 
+            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.AliceBlue;
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(93, 128);
+            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(117, 23);
+            this.guna2HtmlLabel1.TabIndex = 28;
+            this.guna2HtmlLabel1.Text = "Configurações:";
+            // 
+            // guna2HtmlLabel6
+            // 
+            this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.AliceBlue;
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(492, 253);
+            this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(117, 23);
+            this.guna2HtmlLabel6.TabIndex = 29;
+            this.guna2HtmlLabel6.Text = "Configurações:";
+            // 
             // Games1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.ClientSize = new System.Drawing.Size(755, 487);
+            this.Controls.Add(this.guna2HtmlLabel6);
+            this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.chk4);
             this.Controls.Add(this.chk3);
             this.Controls.Add(this.chk2);
@@ -275,5 +301,7 @@
         private Guna.UI2.WinForms.Guna2CustomRadioButton chk3;
         private Guna.UI2.WinForms.Guna2CustomRadioButton chk4;
         private FolderBrowserDialog folderBrowserDialog1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
     }
 }
