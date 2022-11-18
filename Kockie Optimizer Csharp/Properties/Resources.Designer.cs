@@ -164,6 +164,16 @@ namespace Kockie_Optimizer_Csharp.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Minecraft_Logo {
+            get {
+                object obj = ResourceManager.GetObject("Minecraft-Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap robloxlogo_freelogovectors_net_ {
             get {
                 object obj = ResourceManager.GetObject("robloxlogo-freelogovectors.net_", resourceCulture);

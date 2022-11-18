@@ -1,0 +1,24 @@
+C:\Users\Miguel\Downloads\Kockie Optimizer - x86 (32bit)\Kockie Optimizer Csharp.pdb
+C:\Users\Miguel\Downloads\Kockie Optimizer - x86 (32bit)\Files\FortAlto\GameUserSettings.ini
+C:\Users\Miguel\Downloads\Kockie Optimizer - x86 (32bit)\Files\FortBaixo\GameUserSettings.ini
+C:\Users\Miguel\Downloads\Kockie Optimizer - x86 (32bit)\Files\CsAlto\boost.cfg
+C:\Users\Miguel\Downloads\Kockie Optimizer - x86 (32bit)\Files\CsBaixo\boost.cfg
+C:\Users\Miguel\Downloads\Kockie Optimizer - x86 (32bit)\Files\GtavAlto\Commandline.txt
+C:\Users\Miguel\Downloads\Kockie Optimizer - x86 (32bit)\Files\GtavBaixo\Commandline.txt
+C:\Users\Miguel\Downloads\Kockie Optimizer - x86 (32bit)\Files\LolAlto\game.cfg
+C:\Users\Miguel\Downloads\Kockie Optimizer - x86 (32bit)\Files\LolBaixo\game.cfg
+C:\Users\Miguel\Downloads\Kockie Optimizer - x86 (32bit)\Files\RobloxAlto\GlobalBasicSettings_13.xml
+C:\Users\Miguel\Downloads\Kockie Optimizer - x86 (32bit)\Files\RobloxBaixo\GlobalBasicSettings_13.xml
+C:\Users\Miguel\Downloads\Kockie Optimizer - x86 (32bit)\Files\ValAlto\GameUserSettings.ini
+C:\Users\Miguel\Downloads\Kockie Optimizer - x86 (32bit)\Files\ValAlto\RiotUserSettings.ini
+C:\Users\Miguel\Downloads\Kockie Optimizer - x86 (32bit)\Files\ValBaixo\GameUserSettings.ini
+C:\Users\Miguel\Downloads\Kockie Optimizer - x86 (32bit)\Files\ValBaixo\RiotUserSettings.ini
+C:\Users\Miguel\Downloads\Kockie Optimizer - x86 (32bit)\Files\WzAlto\config.cfg
+C:\Users\Miguel\Downloads\Kockie Optimizer - x86 (32bit)\Files\WzBaixo\config.cfg
+C:\Users\Miguel\Downloads\Kockie Optimizer - x86 (32bit)\D3DCompiler_47_cor3.dll
+C:\Users\Miguel\Downloads\Kockie Optimizer - x86 (32bit)\PenImc_cor3.dll
+C:\Users\Miguel\Downloads\Kockie Optimizer - x86 (32bit)\PresentationNative_cor3.dll
+C:\Users\Miguel\Downloads\Kockie Optimizer - x86 (32bit)\vcruntime140_cor3.dll
+C:\Users\Miguel\Downloads\Kockie Optimizer - x86 (32bit)\wpfgfx_cor3.dll
+C:\Users\Miguel\Downloads\Kockie Optimizer - x86 (32bit)\sni.dll
+C:\Users\Miguel\Downloads\Kockie Optimizer - x86 (32bit)\Kockie Optimizer Csharp.exe

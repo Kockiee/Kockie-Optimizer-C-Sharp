@@ -90,6 +90,7 @@
             // 
             // tgbGameMode
             // 
+            this.tgbGameMode.AutoRoundedCorners = true;
             this.tgbGameMode.CheckedState.BorderColor = System.Drawing.Color.RoyalBlue;
             this.tgbGameMode.CheckedState.FillColor = System.Drawing.Color.RoyalBlue;
             this.tgbGameMode.CheckedState.InnerBorderColor = System.Drawing.Color.White;

@@ -86,3 +86,9 @@ C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csh
 C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\obj\x64\Debug\net6.0-windows\Kockie_Optimizer_Csharp.InitialPnl.resources
 C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Debug\net6.0-windows\Files\LolAlto\game.cfg
 C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Debug\net6.0-windows\Files\LolBaixo\game.cfg
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Debug\net6.0-windows\Files\MineAlto\options.txt
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Debug\net6.0-windows\Files\MineAlto\optionsof.txt
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Debug\net6.0-windows\Files\MineBaixo\options.txt
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Debug\net6.0-windows\Files\MineBaixo\optionsof.txt
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Debug\net6.0-windows\Files\MineVerylow\options.txt
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Debug\net6.0-windows\Files\MineVerylow\optionsof.txt

@@ -42,6 +42,8 @@
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.folderBrowserDialog2 = new System.Windows.Forms.FolderBrowserDialog();
+            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -55,7 +57,7 @@
             this.chk4.CheckedState.InnerColor = System.Drawing.Color.White;
             this.chk4.CheckedState.InnerOffset = 10;
             this.chk4.ForeColor = System.Drawing.Color.Transparent;
-            this.chk4.Location = new System.Drawing.Point(508, 326);
+            this.chk4.Location = new System.Drawing.Point(549, 338);
             this.chk4.Name = "chk4";
             this.chk4.Size = new System.Drawing.Size(25, 25);
             this.chk4.TabIndex = 39;
@@ -75,7 +77,7 @@
             this.chk3.CheckedState.InnerColor = System.Drawing.Color.White;
             this.chk3.CheckedState.InnerOffset = 10;
             this.chk3.ForeColor = System.Drawing.Color.Transparent;
-            this.chk3.Location = new System.Drawing.Point(508, 276);
+            this.chk3.Location = new System.Drawing.Point(549, 288);
             this.chk3.Name = "chk3";
             this.chk3.Size = new System.Drawing.Size(25, 25);
             this.chk3.TabIndex = 38;
@@ -95,7 +97,7 @@
             this.chk2.CheckedState.InnerColor = System.Drawing.Color.White;
             this.chk2.CheckedState.InnerOffset = 10;
             this.chk2.ForeColor = System.Drawing.Color.Transparent;
-            this.chk2.Location = new System.Drawing.Point(126, 204);
+            this.chk2.Location = new System.Drawing.Point(138, 233);
             this.chk2.Name = "chk2";
             this.chk2.Size = new System.Drawing.Size(25, 25);
             this.chk2.TabIndex = 37;
@@ -115,7 +117,7 @@
             this.chk1.CheckedState.InnerColor = System.Drawing.Color.White;
             this.chk1.CheckedState.InnerOffset = 10;
             this.chk1.ForeColor = System.Drawing.Color.Transparent;
-            this.chk1.Location = new System.Drawing.Point(126, 154);
+            this.chk1.Location = new System.Drawing.Point(138, 183);
             this.chk1.Name = "chk1";
             this.chk1.Size = new System.Drawing.Size(25, 25);
             this.chk1.TabIndex = 36;
@@ -136,7 +138,7 @@
             this.btnOT2.FillColor = System.Drawing.Color.DodgerBlue;
             this.btnOT2.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnOT2.ForeColor = System.Drawing.Color.White;
-            this.btnOT2.Location = new System.Drawing.Point(472, 371);
+            this.btnOT2.Location = new System.Drawing.Point(491, 383);
             this.btnOT2.Name = "btnOT2";
             this.btnOT2.Size = new System.Drawing.Size(180, 45);
             this.btnOT2.TabIndex = 35;
@@ -153,7 +155,7 @@
             this.btnOT1.FillColor = System.Drawing.Color.DodgerBlue;
             this.btnOT1.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnOT1.ForeColor = System.Drawing.Color.White;
-            this.btnOT1.Location = new System.Drawing.Point(86, 247);
+            this.btnOT1.Location = new System.Drawing.Point(80, 276);
             this.btnOT1.Name = "btnOT1";
             this.btnOT1.Size = new System.Drawing.Size(180, 45);
             this.btnOT1.TabIndex = 34;
@@ -165,51 +167,51 @@
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.AliceBlue;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(539, 328);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(580, 340);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(78, 23);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(46, 23);
             this.guna2HtmlLabel4.TabIndex = 33;
-            this.guna2HtmlLabel4.Text = "PC FRACO";
+            this.guna2HtmlLabel4.Text = "Baixo";
             // 
             // guna2HtmlLabel5
             // 
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.AliceBlue;
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(539, 278);
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(580, 290);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(75, 23);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(35, 23);
             this.guna2HtmlLabel5.TabIndex = 32;
-            this.guna2HtmlLabel5.Text = "PC FORTE";
+            this.guna2HtmlLabel5.Text = "Alto";
             // 
             // guna2HtmlLabel3
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.AliceBlue;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(157, 206);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(169, 235);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(78, 23);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(46, 23);
             this.guna2HtmlLabel3.TabIndex = 31;
-            this.guna2HtmlLabel3.Text = "PC FRACO";
+            this.guna2HtmlLabel3.Text = "Baixo";
             // 
             // guna2HtmlLabel2
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.AliceBlue;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(157, 156);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(169, 185);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(75, 23);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(35, 23);
             this.guna2HtmlLabel2.TabIndex = 30;
-            this.guna2HtmlLabel2.Text = "PC FORTE";
+            this.guna2HtmlLabel2.Text = "Alto";
             // 
             // guna2PictureBox2
             // 
             this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.Image = global::Kockie_Optimizer_Csharp.Properties.Resources._2560px_Valorant_logo___pink_color_version_svg;
             this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(422, 72);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(442, 47);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
             this.guna2PictureBox2.Size = new System.Drawing.Size(284, 187);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -242,12 +244,36 @@
             this.folderBrowserDialog2.UseDescriptionForTitle = true;
             this.folderBrowserDialog2.HelpRequest += new System.EventHandler(this.folderBrowserDialog2_HelpRequest);
             // 
+            // guna2HtmlLabel1
+            // 
+            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.AliceBlue;
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(112, 151);
+            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(117, 23);
+            this.guna2HtmlLabel1.TabIndex = 40;
+            this.guna2HtmlLabel1.Text = "Configurações:";
+            // 
+            // guna2HtmlLabel6
+            // 
+            this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.AliceBlue;
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(523, 255);
+            this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(117, 23);
+            this.guna2HtmlLabel6.TabIndex = 41;
+            this.guna2HtmlLabel6.Text = "Configurações:";
+            // 
             // Games2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.ClientSize = new System.Drawing.Size(755, 487);
+            this.Controls.Add(this.guna2HtmlLabel6);
+            this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.chk4);
             this.Controls.Add(this.chk3);
             this.Controls.Add(this.chk2);
@@ -286,5 +312,7 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private FolderBrowserDialog folderBrowserDialog1;
         private FolderBrowserDialog folderBrowserDialog2;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
     }
 }
