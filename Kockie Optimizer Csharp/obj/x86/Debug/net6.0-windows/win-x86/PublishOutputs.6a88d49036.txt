@@ -7,6 +7,12 @@ C:\Users\Miguel\Desktop\Kockie Optimizer - x86 (32bit)\Files\GtavAlto\Commandlin
 C:\Users\Miguel\Desktop\Kockie Optimizer - x86 (32bit)\Files\GtavBaixo\Commandline.txt
 C:\Users\Miguel\Desktop\Kockie Optimizer - x86 (32bit)\Files\LolAlto\game.cfg
 C:\Users\Miguel\Desktop\Kockie Optimizer - x86 (32bit)\Files\LolBaixo\game.cfg
+C:\Users\Miguel\Desktop\Kockie Optimizer - x86 (32bit)\Files\MineAlto\options.txt
+C:\Users\Miguel\Desktop\Kockie Optimizer - x86 (32bit)\Files\MineAlto\optionsof.txt
+C:\Users\Miguel\Desktop\Kockie Optimizer - x86 (32bit)\Files\MineBaixo\options.txt
+C:\Users\Miguel\Desktop\Kockie Optimizer - x86 (32bit)\Files\MineBaixo\optionsof.txt
+C:\Users\Miguel\Desktop\Kockie Optimizer - x86 (32bit)\Files\MineVerylow\options.txt
+C:\Users\Miguel\Desktop\Kockie Optimizer - x86 (32bit)\Files\MineVerylow\optionsof.txt
 C:\Users\Miguel\Desktop\Kockie Optimizer - x86 (32bit)\Files\RobloxAlto\GlobalBasicSettings_13.xml
 C:\Users\Miguel\Desktop\Kockie Optimizer - x86 (32bit)\Files\RobloxBaixo\GlobalBasicSettings_13.xml
 C:\Users\Miguel\Desktop\Kockie Optimizer - x86 (32bit)\Files\ValAlto\GameUserSettings.ini

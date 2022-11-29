@@ -1,4 +1,5 @@
 ﻿using Guna.UI2.WinForms;
+using Kockie_Optimizer_Csharp.Classes;
 using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
@@ -182,7 +183,7 @@ namespace Kockie_Optimizer_Csharp
                 Registry.SetValue(@"HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager", "OemPreInstalledAppsEnabled", "1", RegistryValueKind.DWord);
                 Registry.SetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsStore", "AutoDownload", "4", RegistryValueKind.DWord);
                 Utilities.StartService("DoSvc");
-                MessageBox.Show("Windows update desativado !");
+                MessageBox.Show("Windows update ativado !");
             }
             else
             {

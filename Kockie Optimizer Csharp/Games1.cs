@@ -87,10 +87,9 @@ namespace Kockie_Optimizer_Csharp
         private void ConfiginGtaV(string localoftheconfiguration)
         {
             string config = Application.StartupPath + $"Files\\{localoftheconfiguration}\\Commandline.txt";
-            DialogResult dialog = this.folderBrowserDialog1.ShowDialog();
-            if (dialog == DialogResult.OK)
+            if (Directory.Exists(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\Rockstar Games\\GTA V"))
             {
-                string destiny = folderBrowserDialog1.SelectedPath + "\\Commandline.txt";
+                string destiny = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\Rockstar Games\\GTA V\\Commandline.txt";
                 if (File.Exists(destiny))
                 {
                     File.Copy(config, destiny, true);
@@ -102,6 +101,26 @@ namespace Kockie_Optimizer_Csharp
                     commandline.Close();
                     File.Copy(config, destiny, true);
                     MessageBox.Show("Alteração feita com sucesso !");
+                }
+            }
+            else
+            {
+                DialogResult dialog = this.folderBrowserDialog1.ShowDialog();
+                if (dialog == DialogResult.OK)
+                {
+                    string destiny = folderBrowserDialog1.SelectedPath + "\\Commandline.txt";
+                    if (File.Exists(destiny))
+                    {
+                        File.Copy(config, destiny, true);
+                        MessageBox.Show("Alteração feita com sucesso !");
+                    }
+                    else
+                    {
+                        var commandline = File.Create(destiny);
+                        commandline.Close();
+                        File.Copy(config, destiny, true);
+                        MessageBox.Show("Alteração feita com sucesso !");
+                    }
                 }
             }
         }

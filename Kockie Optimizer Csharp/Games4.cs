@@ -84,17 +84,17 @@ namespace Kockie_Optimizer_Csharp
             string config = Application.StartupPath + $"Files\\{localoftheconfiguration}\\game.cfg";
             if (Directory.Exists("C:\\Riot Games\\League of Legends\\Config"))
             {
-                string destiny = "C:\\Riot Games\\League of Legends\\Config";
-                if (File.Exists(destiny + "\\game.cfg"))
+                string destiny = "C:\\Riot Games\\League of Legends\\Config\\game.cfg";
+                if (File.Exists(destiny))
                 {
-                    File.Copy(config, destiny + "\\game.cfg", true);
+                    File.Copy(config, destiny, true);
                     MessageBox.Show("Alteração feita com sucesso !");
                 }
                 else
                 {
-                    var settingsFile = File.Create(destiny + "\\game.cfg");
+                    var settingsFile = File.Create(destiny);
                     settingsFile.Close();
-                    File.Copy(config, destiny + "\\game.cfg", true);
+                    File.Copy(config, destiny, true);
                     MessageBox.Show("Alteração feita com sucesso !");
                 }
             }
@@ -126,7 +126,7 @@ namespace Kockie_Optimizer_Csharp
             string config1 = Application.StartupPath + $"Files\\{localoftheconfiguration}\\optionsof.txt";
             if (Directory.Exists(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\.minecraft"))
             {
-                string destiny = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\.minecraft";
+                string destiny = $"{Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData)}\\.minecraft";
                 if (File.Exists(destiny + "\\options.txt") && File.Exists(destiny + "optionof.txt"))
                 {
                     File.Copy(config, destiny + "\\options.txt", true);

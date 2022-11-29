@@ -1,0 +1,76 @@
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Kockie Optimizer Csharp.exe
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Files\FortAlto\GameUserSettings.ini
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Files\FortBaixo\GameUserSettings.ini
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Files\CsAlto\boost.cfg
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Files\CsBaixo\boost.cfg
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Files\GtavAlto\Commandline.txt
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Files\GtavBaixo\Commandline.txt
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Files\LolAlto\game.cfg
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Files\LolBaixo\game.cfg
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Files\MineAlto\options.txt
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Files\MineAlto\optionsof.txt
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Files\MineBaixo\options.txt
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Files\MineBaixo\optionsof.txt
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Files\MineVerylow\options.txt
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Files\MineVerylow\optionsof.txt
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Files\RobloxAlto\GlobalBasicSettings_13.xml
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Files\RobloxBaixo\GlobalBasicSettings_13.xml
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Files\ValAlto\GameUserSettings.ini
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Files\ValAlto\RiotUserSettings.ini
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Files\ValBaixo\GameUserSettings.ini
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Files\ValBaixo\RiotUserSettings.ini
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Files\WzAlto\config.cfg
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Files\WzBaixo\config.cfg
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Kockie Optimizer Csharp.deps.json
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Kockie Optimizer Csharp.runtimeconfig.json
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Kockie Optimizer Csharp.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Kockie Optimizer Csharp.pdb
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Common.Logging.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Common.Logging.Core.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Guna.UI2.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\System.Net.Http.Formatting.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Microsoft.Build.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Microsoft.Build.Framework.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Microsoft.NET.StringTools.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Microsoft.TeamFoundation.Common.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Microsoft.VisualStudio.Services.Common.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Microsoft.VisualStudio.Services.WebApi.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Newtonsoft.Json.Bson.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\System.Reflection.MetadataLoadContext.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\System.ServiceProcess.ServiceController.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\System.Xml.XPath.XmlDocument.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Win32.TokenPrivileges.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\runtimes\win\lib\net6.0\System.ServiceProcess.ServiceController.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\obj\x64\Release\net6.0-windows\Kockie Optimizer Csharp.csproj.AssemblyReference.cache
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\obj\x64\Release\net6.0-windows\Kockie_Optimizer_Csharp.Games1.resources
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\obj\x64\Release\net6.0-windows\Kockie_Optimizer_Csharp.Games2.resources
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\obj\x64\Release\net6.0-windows\Kockie_Optimizer_Csharp.Games3.resources
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\obj\x64\Release\net6.0-windows\Kockie_Optimizer_Csharp.Games4.resources
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\obj\x64\Release\net6.0-windows\Kockie_Optimizer_Csharp.InitialPnl.resources
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\obj\x64\Release\net6.0-windows\Kockie_Optimizer_Csharp.KockieOptimizer.resources
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\obj\x64\Release\net6.0-windows\Kockie_Optimizer_Csharp.OW.resources
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\obj\x64\Release\net6.0-windows\Kockie_Optimizer_Csharp.Properties.Resources.resources
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\obj\x64\Release\net6.0-windows\Kockie_Optimizer_Csharp.UT.resources
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\obj\x64\Release\net6.0-windows\Kockie Optimizer Csharp.csproj.GenerateResource.cache
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\obj\x64\Release\net6.0-windows\Kockie Optimizer Csharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\obj\x64\Release\net6.0-windows\Kockie Optimizer Csharp.AssemblyInfoInputs.cache
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\obj\x64\Release\net6.0-windows\Kockie Optimizer Csharp.AssemblyInfo.cs
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\obj\x64\Release\net6.0-windows\Kockie Optimizer Csharp.csproj.CoreCompileInputs.cache
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\obj\x64\Release\net6.0-windows\Kockie Optimizer Csharp.csproj.CopyComplete
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\obj\x64\Release\net6.0-windows\Kockie Optimizer Csharp.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\obj\x64\Release\net6.0-windows\refint\Kockie Optimizer Csharp.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\obj\x64\Release\net6.0-windows\Kockie Optimizer Csharp.pdb
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\obj\x64\Release\net6.0-windows\Kockie Optimizer Csharp.genruntimeconfig.cache
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\obj\x64\Release\net6.0-windows\ref\Kockie Optimizer Csharp.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Files\Wz2Alto\config_x3ed1cabba6125393e.cfg
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Files\Wz2Baixo\config_x3ed1cabba6125393e.cfg
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\Files\Wz2VeryLow\config_x3ed1cabba6125393e.cfg
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\obj\x64\Release\net6.0-windows\Kockie_Optimizer_Csharp.Games5.resources

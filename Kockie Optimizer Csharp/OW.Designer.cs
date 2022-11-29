@@ -43,12 +43,12 @@
             // btnInstallCommonApps
             // 
             this.btnInstallCommonApps.BackColor = System.Drawing.Color.Transparent;
-            this.btnInstallCommonApps.BorderRadius = 10;
+            this.btnInstallCommonApps.BorderRadius = 3;
             this.btnInstallCommonApps.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnInstallCommonApps.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnInstallCommonApps.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnInstallCommonApps.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnInstallCommonApps.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(85)))), ((int)(((byte)(225)))));
+            this.btnInstallCommonApps.FillColor = System.Drawing.Color.CornflowerBlue;
             this.btnInstallCommonApps.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnInstallCommonApps.ForeColor = System.Drawing.Color.White;
             this.btnInstallCommonApps.Location = new System.Drawing.Point(12, 144);
@@ -64,12 +64,12 @@
             // btnRmvDefaultApps
             // 
             this.btnRmvDefaultApps.BackColor = System.Drawing.Color.Transparent;
-            this.btnRmvDefaultApps.BorderRadius = 10;
+            this.btnRmvDefaultApps.BorderRadius = 3;
             this.btnRmvDefaultApps.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnRmvDefaultApps.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnRmvDefaultApps.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnRmvDefaultApps.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnRmvDefaultApps.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(85)))), ((int)(((byte)(225)))));
+            this.btnRmvDefaultApps.FillColor = System.Drawing.Color.CornflowerBlue;
             this.btnRmvDefaultApps.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnRmvDefaultApps.ForeColor = System.Drawing.Color.White;
             this.btnRmvDefaultApps.Location = new System.Drawing.Point(12, 72);
@@ -85,33 +85,34 @@
             // btnOptimizeWindows
             // 
             this.btnOptimizeWindows.BackColor = System.Drawing.Color.Transparent;
-            this.btnOptimizeWindows.BorderRadius = 10;
+            this.btnOptimizeWindows.BorderRadius = 3;
             this.btnOptimizeWindows.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnOptimizeWindows.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnOptimizeWindows.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnOptimizeWindows.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnOptimizeWindows.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(85)))), ((int)(((byte)(225)))));
+            this.btnOptimizeWindows.FillColor = System.Drawing.Color.CornflowerBlue;
             this.btnOptimizeWindows.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnOptimizeWindows.ForeColor = System.Drawing.Color.White;
             this.btnOptimizeWindows.Location = new System.Drawing.Point(12, 10);
             this.btnOptimizeWindows.Name = "btnOptimizeWindows";
+            this.btnOptimizeWindows.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btnOptimizeWindows.ShadowDecoration.BorderRadius = 10;
             this.btnOptimizeWindows.ShadowDecoration.Depth = 5;
             this.btnOptimizeWindows.ShadowDecoration.Enabled = true;
             this.btnOptimizeWindows.Size = new System.Drawing.Size(189, 45);
             this.btnOptimizeWindows.TabIndex = 3;
             this.btnOptimizeWindows.Text = "Tweaks Básicos";
-            this.btnOptimizeWindows.Click += new System.EventHandler(this.btnOptimizewindows_Click);
+            this.btnOptimizeWindows.Click += new System.EventHandler(this.btnBasicTweaks_Click);
             // 
             // btnOptimizeWindows2
             // 
             this.btnOptimizeWindows2.BackColor = System.Drawing.Color.Transparent;
-            this.btnOptimizeWindows2.BorderRadius = 10;
+            this.btnOptimizeWindows2.BorderRadius = 3;
             this.btnOptimizeWindows2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnOptimizeWindows2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnOptimizeWindows2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnOptimizeWindows2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnOptimizeWindows2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(85)))), ((int)(((byte)(225)))));
+            this.btnOptimizeWindows2.FillColor = System.Drawing.Color.CornflowerBlue;
             this.btnOptimizeWindows2.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnOptimizeWindows2.ForeColor = System.Drawing.Color.White;
             this.btnOptimizeWindows2.Location = new System.Drawing.Point(216, 10);
@@ -122,12 +123,12 @@
             this.btnOptimizeWindows2.Size = new System.Drawing.Size(189, 45);
             this.btnOptimizeWindows2.TabIndex = 6;
             this.btnOptimizeWindows2.Text = "Tweaks Avançados";
-            this.btnOptimizeWindows2.Click += new System.EventHandler(this.btnOptimizewindows2_Click);
+            this.btnOptimizeWindows2.Click += new System.EventHandler(this.btnAdvancedTweaks_Click);
             // 
             // btnUndotweaks
             // 
             this.btnUndotweaks.BackColor = System.Drawing.Color.Transparent;
-            this.btnUndotweaks.BorderRadius = 10;
+            this.btnUndotweaks.BorderRadius = 3;
             this.btnUndotweaks.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnUndotweaks.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnUndotweaks.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -140,7 +141,7 @@
             this.btnUndotweaks.ShadowDecoration.BorderRadius = 10;
             this.btnUndotweaks.ShadowDecoration.Depth = 5;
             this.btnUndotweaks.ShadowDecoration.Enabled = true;
-            this.btnUndotweaks.Size = new System.Drawing.Size(218, 64);
+            this.btnUndotweaks.Size = new System.Drawing.Size(218, 51);
             this.btnUndotweaks.TabIndex = 8;
             this.btnUndotweaks.Text = "Desfazer Tweaks Básicos";
             this.btnUndotweaks.Click += new System.EventHandler(this.btnUndoTweaks1_Click);
@@ -148,12 +149,12 @@
             // btnUndoDefender
             // 
             this.btnUndoDefender.BackColor = System.Drawing.Color.Transparent;
-            this.btnUndoDefender.BorderRadius = 10;
+            this.btnUndoDefender.BorderRadius = 3;
             this.btnUndoDefender.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnUndoDefender.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnUndoDefender.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnUndoDefender.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnUndoDefender.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(85)))), ((int)(((byte)(225)))));
+            this.btnUndoDefender.FillColor = System.Drawing.Color.CornflowerBlue;
             this.btnUndoDefender.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnUndoDefender.ForeColor = System.Drawing.Color.White;
             this.btnUndoDefender.Location = new System.Drawing.Point(216, 72);
@@ -169,7 +170,7 @@
             // btnActivateDefender
             // 
             this.btnActivateDefender.BackColor = System.Drawing.Color.Transparent;
-            this.btnActivateDefender.BorderRadius = 10;
+            this.btnActivateDefender.BorderRadius = 3;
             this.btnActivateDefender.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnActivateDefender.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnActivateDefender.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -177,12 +178,12 @@
             this.btnActivateDefender.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnActivateDefender.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnActivateDefender.ForeColor = System.Drawing.Color.White;
-            this.btnActivateDefender.Location = new System.Drawing.Point(525, 222);
+            this.btnActivateDefender.Location = new System.Drawing.Point(525, 182);
             this.btnActivateDefender.Name = "btnActivateDefender";
             this.btnActivateDefender.ShadowDecoration.BorderRadius = 10;
             this.btnActivateDefender.ShadowDecoration.Depth = 5;
             this.btnActivateDefender.ShadowDecoration.Enabled = true;
-            this.btnActivateDefender.Size = new System.Drawing.Size(218, 64);
+            this.btnActivateDefender.Size = new System.Drawing.Size(218, 48);
             this.btnActivateDefender.TabIndex = 10;
             this.btnActivateDefender.Text = "Ativar Windows Defender";
             this.btnActivateDefender.Click += new System.EventHandler(this.btnActivatedefender_Click);
@@ -190,7 +191,7 @@
             // btnReinstallDefaultApps
             // 
             this.btnReinstallDefaultApps.BackColor = System.Drawing.Color.Transparent;
-            this.btnReinstallDefaultApps.BorderRadius = 10;
+            this.btnReinstallDefaultApps.BorderRadius = 3;
             this.btnReinstallDefaultApps.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnReinstallDefaultApps.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnReinstallDefaultApps.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -198,12 +199,12 @@
             this.btnReinstallDefaultApps.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnReinstallDefaultApps.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnReinstallDefaultApps.ForeColor = System.Drawing.Color.White;
-            this.btnReinstallDefaultApps.Location = new System.Drawing.Point(525, 152);
+            this.btnReinstallDefaultApps.Location = new System.Drawing.Point(525, 122);
             this.btnReinstallDefaultApps.Name = "btnReinstallDefaultApps";
             this.btnReinstallDefaultApps.ShadowDecoration.BorderRadius = 10;
             this.btnReinstallDefaultApps.ShadowDecoration.Depth = 5;
             this.btnReinstallDefaultApps.ShadowDecoration.Enabled = true;
-            this.btnReinstallDefaultApps.Size = new System.Drawing.Size(218, 64);
+            this.btnReinstallDefaultApps.Size = new System.Drawing.Size(218, 54);
             this.btnReinstallDefaultApps.TabIndex = 11;
             this.btnReinstallDefaultApps.Text = "Reinstalar Programas Nativos";
             this.btnReinstallDefaultApps.Click += new System.EventHandler(this.btnReinstallDefaultApps_Click);
@@ -211,7 +212,7 @@
             // btnReinstallCommonApps
             // 
             this.btnReinstallCommonApps.BackColor = System.Drawing.Color.Transparent;
-            this.btnReinstallCommonApps.BorderRadius = 10;
+            this.btnReinstallCommonApps.BorderRadius = 3;
             this.btnReinstallCommonApps.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnReinstallCommonApps.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnReinstallCommonApps.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -219,12 +220,12 @@
             this.btnReinstallCommonApps.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnReinstallCommonApps.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnReinstallCommonApps.ForeColor = System.Drawing.Color.White;
-            this.btnReinstallCommonApps.Location = new System.Drawing.Point(525, 292);
+            this.btnReinstallCommonApps.Location = new System.Drawing.Point(525, 236);
             this.btnReinstallCommonApps.Name = "btnReinstallCommonApps";
             this.btnReinstallCommonApps.ShadowDecoration.BorderRadius = 10;
             this.btnReinstallCommonApps.ShadowDecoration.Depth = 5;
             this.btnReinstallCommonApps.ShadowDecoration.Enabled = true;
-            this.btnReinstallCommonApps.Size = new System.Drawing.Size(218, 64);
+            this.btnReinstallCommonApps.Size = new System.Drawing.Size(218, 52);
             this.btnReinstallCommonApps.TabIndex = 12;
             this.btnReinstallCommonApps.Text = "Remover Programas Comuns";
             this.btnReinstallCommonApps.Click += new System.EventHandler(this.btnRemoveCommonApps_Click);
@@ -232,7 +233,7 @@
             // btnUndoTweaks1
             // 
             this.btnUndoTweaks1.BackColor = System.Drawing.Color.Transparent;
-            this.btnUndoTweaks1.BorderRadius = 10;
+            this.btnUndoTweaks1.BorderRadius = 3;
             this.btnUndoTweaks1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnUndoTweaks1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnUndoTweaks1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -240,12 +241,12 @@
             this.btnUndoTweaks1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnUndoTweaks1.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnUndoTweaks1.ForeColor = System.Drawing.Color.White;
-            this.btnUndoTweaks1.Location = new System.Drawing.Point(525, 82);
+            this.btnUndoTweaks1.Location = new System.Drawing.Point(525, 70);
             this.btnUndoTweaks1.Name = "btnUndoTweaks1";
             this.btnUndoTweaks1.ShadowDecoration.BorderRadius = 10;
             this.btnUndoTweaks1.ShadowDecoration.Depth = 5;
             this.btnUndoTweaks1.ShadowDecoration.Enabled = true;
-            this.btnUndoTweaks1.Size = new System.Drawing.Size(218, 64);
+            this.btnUndoTweaks1.Size = new System.Drawing.Size(218, 47);
             this.btnUndoTweaks1.TabIndex = 13;
             this.btnUndoTweaks1.Text = "Desfazer Tweaks Avançados";
             this.btnUndoTweaks1.Click += new System.EventHandler(this.btnUndotweaks_Click);
