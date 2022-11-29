@@ -114,13 +114,13 @@
     <None Update="Files\ValBaixo\RiotUserSettings.ini">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\Wz2Alto\config_x3ed1cabba6125393e.cfg">
+    <None Update="Files\Wz2Alto\options.3.cod22.cst">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\Wz2Baixo\config_x3ed1cabba6125393e.cfg">
+    <None Update="Files\Wz2Baixo\options.3.cod22.cst">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\Wz2VeryLow\config_x3ed1cabba6125393e.cfg">
+    <None Update="Files\Wz2VeryLow\options.3.cod22.cst">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Files\WzAlto\config.cfg">
@@ -134,7 +134,6 @@
   <ItemGroup>
     <Folder Include="Files\LolBaixo\" />
     <Folder Include="Files\RobloxBaixo\" />
-    <Folder Include="Files\ValBaixo\" />
     <Folder Include="Files\ValAlto\" />
     <Folder Include="Files\WzBaixo\" />
     <Folder Include="Files\CsAlto\" />

@@ -59,10 +59,10 @@ namespace Kockie_Optimizer_Csharp
 
         private void configinWarzone2(string localoftheconfiguration)
         {
-            string config = Application.StartupPath + $"Files\\{localoftheconfiguration}\\config_x3ed1cabba6125393e.cfg";
+            string config = Application.StartupPath + $"Files\\{localoftheconfiguration}\\options.3.cod22.cst";
             if (Directory.Exists($@"{Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)}/Call of Duty/players"))
             {
-                string destiny = $@"{Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)}/Call of Duty/players/config_x3ed1cabba6125393e.cfg";
+                string destiny = $@"{Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)}/Call of Duty/players/options.3.cod22.cst";
                 if (File.Exists(destiny))
                 {
                     File.Copy(config, destiny, true);
@@ -81,7 +81,7 @@ namespace Kockie_Optimizer_Csharp
                 DialogResult dialog = this.folderBrowserDialog1.ShowDialog();
                 if (dialog == DialogResult.OK)
                 {
-                    string destiny = folderBrowserDialog1.SelectedPath + "\\config_x3ed1cabba6125393e.cfg";
+                    string destiny = folderBrowserDialog1.SelectedPath + "\\options.3.cod22.cst";
                     if (File.Exists(destiny))
                     {
                         File.Copy(config, destiny, true);
