@@ -327,7 +327,6 @@ C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csh
 C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x86\Debug\net6.0-windows\win-x86\hostfxr.dll
 C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x86\Debug\net6.0-windows\win-x86\hostpolicy.dll
 C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x86\Debug\net6.0-windows\win-x86\mscordaccore.dll
-C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x86\Debug\net6.0-windows\win-x86\mscordaccore_x86_x86_6.0.822.36306.dll
 C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x86\Debug\net6.0-windows\win-x86\mscordbi.dll
 C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x86\Debug\net6.0-windows\win-x86\mscorrc.dll
 C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x86\Debug\net6.0-windows\win-x86\msquic.dll
@@ -558,3 +557,10 @@ C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csh
 C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x86\Debug\net6.0-windows\win-x86\zh-Hant\UIAutomationTypes.resources.dll
 C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x86\Debug\net6.0-windows\win-x86\zh-Hant\WindowsBase.resources.dll
 C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x86\Debug\net6.0-windows\win-x86\zh-Hant\WindowsFormsIntegration.resources.dll
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x86\Debug\net6.0-windows\win-x86\Files\MineAlto\options.txt
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x86\Debug\net6.0-windows\win-x86\Files\MineAlto\optionsof.txt
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x86\Debug\net6.0-windows\win-x86\Files\MineBaixo\options.txt
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x86\Debug\net6.0-windows\win-x86\Files\MineBaixo\optionsof.txt
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x86\Debug\net6.0-windows\win-x86\Files\MineVerylow\options.txt
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x86\Debug\net6.0-windows\win-x86\Files\MineVerylow\optionsof.txt
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x86\Debug\net6.0-windows\win-x86\mscordaccore_x86_x86_6.0.1022.47605.dll

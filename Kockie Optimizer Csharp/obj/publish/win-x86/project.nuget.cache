@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CT1GcmIB5qzmOMW3vQ9IiZOGjOm/ttMnJm6KMZqibqk83QrHxJM2QNabeKg4D/rSPV4wcNlZT62jM2JTv2oFeg==",
+  "dgSpecHash": "TkyrLq8bXSs+LKwim6gbGcWJVqiQmrfXbSFBeLCmbsWKpD4hjZ6txV/LxzzWtYeSOW6HJO3kYO4bcTm8cWRAoA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Miguel\\Documents\\programação\\Kockie Optimizer C#\\Kockie Optimizer Csharp\\Kockie Optimizer Csharp.csproj",
   "expectedPackageFiles": [
@@ -145,10 +145,10 @@
     "C:\\Users\\Miguel\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
     "C:\\Users\\Miguel\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Miguel\\.nuget\\packages\\win32.tokenprivileges\\1.0.19073.2\\win32.tokenprivileges.1.0.19073.2.nupkg.sha512",
-    "C:\\Users\\Miguel\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\6.0.8\\microsoft.netcore.app.runtime.win-x86.6.0.8.nupkg.sha512",
-    "C:\\Users\\Miguel\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.8\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.8.nupkg.sha512",
-    "C:\\Users\\Miguel\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.8\\microsoft.aspnetcore.app.runtime.win-x86.6.0.8.nupkg.sha512",
-    "C:\\Users\\Miguel\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.8\\microsoft.netcore.app.crossgen2.win-x64.6.0.8.nupkg.sha512"
+    "C:\\Users\\Miguel\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\6.0.10\\microsoft.netcore.app.runtime.win-x86.6.0.10.nupkg.sha512",
+    "C:\\Users\\Miguel\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.10\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.10.nupkg.sha512",
+    "C:\\Users\\Miguel\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.10\\microsoft.aspnetcore.app.runtime.win-x86.6.0.10.nupkg.sha512",
+    "C:\\Users\\Miguel\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.10\\microsoft.netcore.app.crossgen2.win-x64.6.0.10.nupkg.sha512"
   ],
   "logs": [
     {

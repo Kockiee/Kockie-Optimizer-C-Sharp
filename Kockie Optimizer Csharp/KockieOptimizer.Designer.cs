@@ -40,16 +40,17 @@
             this.btnNext = new Guna.UI2.WinForms.Guna2Button();
             this.btnBack = new Guna.UI2.WinForms.Guna2Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.lblOtimizarJogos = new System.Windows.Forms.Label();
             this.guna2Separator2 = new Guna.UI2.WinForms.Guna2Separator();
-            this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
+            this.btnInicio = new Guna.UI2.WinForms.Guna2Button();
+            this.lblOtimizarWindows = new System.Windows.Forms.Label();
             this.guna2vSeparator2 = new Guna.UI2.WinForms.Guna2VSeparator();
+            this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
             this.guna2vSeparator1 = new Guna.UI2.WinForms.Guna2VSeparator();
             this.lblUtilities = new System.Windows.Forms.Label();
             this.btnYoutube = new Guna.UI2.WinForms.Guna2ImageButton();
             this.btnGithub = new Guna.UI2.WinForms.Guna2ImageButton();
             this.btnDiscord = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.lblOtimizarJogos = new System.Windows.Forms.Label();
-            this.lblOtimizarWindows = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.guna2ResizeForm1 = new Guna.UI2.WinForms.Guna2ResizeForm(this.components);
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
@@ -65,7 +66,7 @@
             // panel1
             // 
             this.panel1.AllowDrop = true;
-            this.panel1.BackColor = System.Drawing.Color.BlueViolet;
+            this.panel1.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel1.Controls.Add(this.lblDATE);
             this.panel1.Controls.Add(this.lblOS);
@@ -105,7 +106,7 @@
             // 
             this.btnMaximize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMaximize.BackColor = System.Drawing.Color.Transparent;
-            this.btnMaximize.BorderRadius = 20;
+            this.btnMaximize.BorderRadius = 10;
             this.btnMaximize.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
             this.btnMaximize.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnMaximize.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -119,17 +120,18 @@
             this.btnMaximize.Size = new System.Drawing.Size(48, 45);
             this.btnMaximize.TabIndex = 6;
             this.btnMaximize.Text = "▢";
+            this.btnMaximize.TextOffset = new System.Drawing.Point(0, -2);
             this.btnMaximize.Click += new System.EventHandler(this.btnMaximize_Click);
             // 
             // guna2HtmlLabel1
             // 
             this.guna2HtmlLabel1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(363, 9);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(363, 4);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(380, 57);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(391, 67);
             this.guna2HtmlLabel1.TabIndex = 3;
             this.guna2HtmlLabel1.TabStop = false;
             this.guna2HtmlLabel1.Text = "Kockie Optimizer";
@@ -139,7 +141,7 @@
             // 
             this.btnMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMinimize.BackColor = System.Drawing.Color.Transparent;
-            this.btnMinimize.BorderRadius = 20;
+            this.btnMinimize.BorderRadius = 10;
             this.btnMinimize.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
             this.btnMinimize.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnMinimize.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -153,13 +155,14 @@
             this.btnMinimize.Size = new System.Drawing.Size(48, 45);
             this.btnMinimize.TabIndex = 5;
             this.btnMinimize.Text = "-";
+            this.btnMinimize.TextOffset = new System.Drawing.Point(0, -2);
             this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
             // 
             // btnClose
             // 
             this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClose.BackColor = System.Drawing.Color.Transparent;
-            this.btnClose.BorderRadius = 20;
+            this.btnClose.BorderRadius = 10;
             this.btnClose.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
             this.btnClose.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnClose.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -170,9 +173,10 @@
             this.btnClose.ForeColor = System.Drawing.Color.White;
             this.btnClose.Location = new System.Drawing.Point(989, 11);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(48, 48);
+            this.btnClose.Size = new System.Drawing.Size(48, 45);
             this.btnClose.TabIndex = 4;
             this.btnClose.Text = "x";
+            this.btnClose.TextOffset = new System.Drawing.Point(0, -2);
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnNext
@@ -226,16 +230,17 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel2.Controls.Add(this.lblOtimizarJogos);
             this.panel2.Controls.Add(this.guna2Separator2);
-            this.panel2.Controls.Add(this.guna2Separator1);
+            this.panel2.Controls.Add(this.btnInicio);
+            this.panel2.Controls.Add(this.lblOtimizarWindows);
             this.panel2.Controls.Add(this.guna2vSeparator2);
+            this.panel2.Controls.Add(this.guna2Separator1);
             this.panel2.Controls.Add(this.guna2vSeparator1);
             this.panel2.Controls.Add(this.lblUtilities);
             this.panel2.Controls.Add(this.btnYoutube);
             this.panel2.Controls.Add(this.btnGithub);
             this.panel2.Controls.Add(this.btnDiscord);
-            this.panel2.Controls.Add(this.lblOtimizarJogos);
-            this.panel2.Controls.Add(this.lblOtimizarWindows);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel2.Location = new System.Drawing.Point(0, 74);
@@ -243,21 +248,60 @@
             this.panel2.Size = new System.Drawing.Size(200, 567);
             this.panel2.TabIndex = 2;
             // 
+            // lblOtimizarJogos
+            // 
+            this.lblOtimizarJogos.AutoSize = true;
+            this.lblOtimizarJogos.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblOtimizarJogos.ForeColor = System.Drawing.Color.White;
+            this.lblOtimizarJogos.Location = new System.Drawing.Point(20, 111);
+            this.lblOtimizarJogos.Name = "lblOtimizarJogos";
+            this.lblOtimizarJogos.Size = new System.Drawing.Size(160, 30);
+            this.lblOtimizarJogos.TabIndex = 1;
+            this.lblOtimizarJogos.Text = "Otimizar Jogos";
+            this.lblOtimizarJogos.Click += new System.EventHandler(this.lblOtimizarJogos_Click);
+            this.lblOtimizarJogos.MouseLeave += new System.EventHandler(this.lblOtimizarJogos_MouseLeave);
+            this.lblOtimizarJogos.MouseHover += new System.EventHandler(this.lblOtimizarJogos_MouseHover);
+            // 
             // guna2Separator2
             // 
             this.guna2Separator2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.guna2Separator2.Location = new System.Drawing.Point(35, 90);
+            this.guna2Separator2.Location = new System.Drawing.Point(38, 144);
             this.guna2Separator2.Name = "guna2Separator2";
             this.guna2Separator2.Size = new System.Drawing.Size(124, 14);
             this.guna2Separator2.TabIndex = 8;
             // 
-            // guna2Separator1
+            // btnInicio
             // 
-            this.guna2Separator1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.guna2Separator1.Location = new System.Drawing.Point(35, 45);
-            this.guna2Separator1.Name = "guna2Separator1";
-            this.guna2Separator1.Size = new System.Drawing.Size(124, 14);
-            this.guna2Separator1.TabIndex = 7;
+            this.btnInicio.BorderRadius = 2;
+            this.btnInicio.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnInicio.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnInicio.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnInicio.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnInicio.FillColor = System.Drawing.Color.SlateBlue;
+            this.btnInicio.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnInicio.ForeColor = System.Drawing.Color.White;
+            this.btnInicio.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnInicio.Location = new System.Drawing.Point(34, 8);
+            this.btnInicio.Name = "btnInicio";
+            this.btnInicio.Size = new System.Drawing.Size(135, 33);
+            this.btnInicio.TabIndex = 10;
+            this.btnInicio.Text = "Início";
+            this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
+            // 
+            // lblOtimizarWindows
+            // 
+            this.lblOtimizarWindows.AutoSize = true;
+            this.lblOtimizarWindows.BackColor = System.Drawing.Color.Transparent;
+            this.lblOtimizarWindows.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblOtimizarWindows.ForeColor = System.Drawing.Color.White;
+            this.lblOtimizarWindows.Location = new System.Drawing.Point(3, 66);
+            this.lblOtimizarWindows.Name = "lblOtimizarWindows";
+            this.lblOtimizarWindows.Size = new System.Drawing.Size(195, 30);
+            this.lblOtimizarWindows.TabIndex = 0;
+            this.lblOtimizarWindows.Text = "Otimizar Windows";
+            this.lblOtimizarWindows.Click += new System.EventHandler(this.lblOtimizarWindows_Click);
+            this.lblOtimizarWindows.MouseLeave += new System.EventHandler(this.lblOtimizarWindows_MouseLeave);
+            this.lblOtimizarWindows.MouseHover += new System.EventHandler(this.lblOtimizarWindows_MouseHover);
             // 
             // guna2vSeparator2
             // 
@@ -267,6 +311,14 @@
             this.guna2vSeparator2.Name = "guna2vSeparator2";
             this.guna2vSeparator2.Size = new System.Drawing.Size(10, 34);
             this.guna2vSeparator2.TabIndex = 6;
+            // 
+            // guna2Separator1
+            // 
+            this.guna2Separator1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.guna2Separator1.Location = new System.Drawing.Point(38, 99);
+            this.guna2Separator1.Name = "guna2Separator1";
+            this.guna2Separator1.Size = new System.Drawing.Size(124, 14);
+            this.guna2Separator1.TabIndex = 7;
             // 
             // guna2vSeparator1
             // 
@@ -282,7 +334,7 @@
             this.lblUtilities.AutoSize = true;
             this.lblUtilities.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblUtilities.ForeColor = System.Drawing.Color.White;
-            this.lblUtilities.Location = new System.Drawing.Point(41, 106);
+            this.lblUtilities.Location = new System.Drawing.Point(45, 160);
             this.lblUtilities.Name = "lblUtilities";
             this.lblUtilities.Size = new System.Drawing.Size(111, 30);
             this.lblUtilities.TabIndex = 5;
@@ -339,35 +391,6 @@
             this.btnDiscord.Size = new System.Drawing.Size(62, 55);
             this.btnDiscord.TabIndex = 2;
             this.btnDiscord.Click += new System.EventHandler(this.btnDiscord_Click);
-            // 
-            // lblOtimizarJogos
-            // 
-            this.lblOtimizarJogos.AutoSize = true;
-            this.lblOtimizarJogos.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblOtimizarJogos.ForeColor = System.Drawing.Color.White;
-            this.lblOtimizarJogos.Location = new System.Drawing.Point(20, 57);
-            this.lblOtimizarJogos.Name = "lblOtimizarJogos";
-            this.lblOtimizarJogos.Size = new System.Drawing.Size(160, 30);
-            this.lblOtimizarJogos.TabIndex = 1;
-            this.lblOtimizarJogos.Text = "Otimizar Jogos";
-            this.lblOtimizarJogos.Click += new System.EventHandler(this.lblOtimizarJogos_Click);
-            this.lblOtimizarJogos.MouseLeave += new System.EventHandler(this.lblOtimizarJogos_MouseLeave);
-            this.lblOtimizarJogos.MouseHover += new System.EventHandler(this.lblOtimizarJogos_MouseHover);
-            // 
-            // lblOtimizarWindows
-            // 
-            this.lblOtimizarWindows.AutoSize = true;
-            this.lblOtimizarWindows.BackColor = System.Drawing.Color.Transparent;
-            this.lblOtimizarWindows.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblOtimizarWindows.ForeColor = System.Drawing.Color.White;
-            this.lblOtimizarWindows.Location = new System.Drawing.Point(3, 12);
-            this.lblOtimizarWindows.Name = "lblOtimizarWindows";
-            this.lblOtimizarWindows.Size = new System.Drawing.Size(195, 30);
-            this.lblOtimizarWindows.TabIndex = 0;
-            this.lblOtimizarWindows.Text = "Otimizar Windows";
-            this.lblOtimizarWindows.Click += new System.EventHandler(this.lblOtimizarWindows_Click);
-            this.lblOtimizarWindows.MouseLeave += new System.EventHandler(this.lblOtimizarWindows_MouseLeave);
-            this.lblOtimizarWindows.MouseHover += new System.EventHandler(this.lblOtimizarWindows_MouseHover);
             // 
             // timer1
             // 
@@ -482,5 +505,6 @@
         private Guna.UI2.WinForms.Guna2ShadowForm guna2ShadowForm1;
         private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
         private Label label1;
+        private Guna.UI2.WinForms.Guna2Button btnInicio;
     }
 }

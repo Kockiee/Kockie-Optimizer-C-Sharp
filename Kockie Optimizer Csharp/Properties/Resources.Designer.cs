@@ -184,6 +184,16 @@ namespace Kockie_Optimizer_Csharp.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap warzone_2_logo {
+            get {
+                object obj = ResourceManager.GetObject("warzone-2-logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap warzone_logo_white_shadow {
             get {
                 object obj = ResourceManager.GetObject("warzone-logo-white-shadow", resourceCulture);

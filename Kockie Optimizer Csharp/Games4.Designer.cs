@@ -273,7 +273,7 @@
             this.chk6.CheckedState.InnerColor = System.Drawing.Color.White;
             this.chk6.CheckedState.InnerOffset = 10;
             this.chk6.ForeColor = System.Drawing.Color.Transparent;
-            this.chk6.Location = new System.Drawing.Point(623, 301);
+            this.chk6.Location = new System.Drawing.Point(605, 297);
             this.chk6.Name = "chk6";
             this.chk6.Size = new System.Drawing.Size(25, 25);
             this.chk6.TabIndex = 64;
@@ -289,7 +289,7 @@
             this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel7.ForeColor = System.Drawing.Color.Red;
-            this.guna2HtmlLabel7.Location = new System.Drawing.Point(654, 303);
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(636, 299);
             this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
             this.guna2HtmlLabel7.Size = new System.Drawing.Size(73, 23);
             this.guna2HtmlLabel7.TabIndex = 63;

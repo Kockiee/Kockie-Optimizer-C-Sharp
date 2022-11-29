@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using System.Windows.Forms;
+using Kockie_Optimizer_Csharp.Classes;
 
 namespace Kockie_Optimizer_Csharp
 {
@@ -98,6 +99,11 @@ namespace Kockie_Optimizer_Csharp
             }
             else if (FormGameState == 3)
             {
+                Utilities.OpenForm<Games5>();
+                FormGameState = 4;
+            }
+            else if (FormGameState == 4)
+            {
                 Utilities.OpenForm<Games1>();
                 FormGameState = 0;
             }
@@ -112,8 +118,8 @@ namespace Kockie_Optimizer_Csharp
         {
             if (FormGameState == 0)
             {
-                Utilities.OpenForm<Games4>();
-                FormGameState = 3;
+                Utilities.OpenForm<Games5>();
+                FormGameState = 4;
             }
             else if (FormGameState == 1)
             {
@@ -130,10 +136,20 @@ namespace Kockie_Optimizer_Csharp
                 Utilities.OpenForm<Games3>();
                 FormGameState = 2;
             }
+            else if (FormGameState == 4)
+            {
+                Utilities.OpenForm<Games4>();
+                FormGameState = 3;
+            }
+            else if (FormGameState == 5)
+            {
+                Utilities.OpenForm<Games5>();
+                FormGameState = 4;
+            }
             else
             {
-                Utilities.OpenForm<Games3>();
-                FormGameState = 2;
+                Utilities.OpenForm<Games4>();
+                FormGameState = 3;
             }
         }
 
@@ -189,6 +205,12 @@ namespace Kockie_Optimizer_Csharp
         private void lblOtimizarWindows_MouseLeave(object sender, EventArgs e)
         {
             lblOtimizarWindows.ForeColor = Color.White;
+        }
+
+        private void btnInicio_Click(object sender, EventArgs e)
+        {
+            HideNB();
+            Utilities.OpenForm<InitialPnl>();
         }
     }
 }
