@@ -5,3 +5,5 @@
 
 Downloads:        
 https://github.com/Kockiee/Kockie-Optimizer-C-Sharp/releases      
+
+![alt text](https://kockiee.github.io/img/KockieOptimizerCSharp.png)
