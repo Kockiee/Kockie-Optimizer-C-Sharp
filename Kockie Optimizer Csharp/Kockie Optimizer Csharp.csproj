@@ -21,6 +21,7 @@
   <ItemGroup>
     <None Remove="Files\FortAlto\GameUserSettings.ini" />
     <None Remove="Files\FortBaixo\GameUserSettings.ini" />
+    <None Remove="Files\FortVerylow\GameUserSettings.ini" />
   </ItemGroup>
 
   <ItemGroup>
@@ -32,6 +33,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Files\FortBaixo\GameUserSettings.ini">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Files\FortVerylow\GameUserSettings.ini">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
@@ -72,6 +76,9 @@
     <None Update="Files\GtavBaixo\Commandline.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Files\GtavVerylow\Commandline.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Files\LolAlto\game.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -94,6 +101,15 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Files\MineVerylow\optionsof.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Files\PubgAlto\GameUserSettings.ini">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Files\PubgBaixo\GameUserSettings.ini">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Files\PubgVerylow\GameUserSettings.ini">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Files\RobloxAlto\GlobalBasicSettings_13.xml">
@@ -120,7 +136,7 @@
     <None Update="Files\Wz2Baixo\options.3.cod22.cst">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\Wz2VeryLow\options.3.cod22.cst">
+    <None Update="Files\Wz2Verylow\options.3.cod22.cst">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Files\WzAlto\config.cfg">

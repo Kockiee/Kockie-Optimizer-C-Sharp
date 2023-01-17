@@ -39,6 +39,16 @@ namespace Kockie_Optimizer_Csharp
             chkState = 3;
         }
 
+        private void chk5_CheckedChanged(object sender, EventArgs e)
+        {
+            chkState = 4;
+        }
+
+        private void chk6_CheckedChanged(object sender, EventArgs e)
+        {
+            chkState = 5;
+        }
+
         private void btnOT1_Click(object sender, EventArgs e)
         {
             try
@@ -50,6 +60,10 @@ namespace Kockie_Optimizer_Csharp
                 else if (chkState == 1)
                 {
                     ConfiginFortnite("FortBaixo");
+                }
+                else if (chkState == 4)
+                {
+                    ConfiginFortnite("FortVerylow");
                 }
                 else
                 {
@@ -73,6 +87,10 @@ namespace Kockie_Optimizer_Csharp
                 else if (chkState == 3)
                 {
                     ConfiginGtaV("GtavBaixo");
+                }
+                else if (chkState == 5)
+                {
+                    ConfiginGtaV("GtavVerylow");
                 }
                 else
                 {

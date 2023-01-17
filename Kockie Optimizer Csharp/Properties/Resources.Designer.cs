@@ -113,6 +113,16 @@ namespace Kockie_Optimizer_Csharp.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FiveM {
+            get {
+                object obj = ResourceManager.GetObject("FiveM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fortnite_logo_7 {
             get {
                 object obj = ResourceManager.GetObject("fortnite-logo-7", resourceCulture);
@@ -167,6 +177,16 @@ namespace Kockie_Optimizer_Csharp.Properties {
         internal static System.Drawing.Bitmap Minecraft_Logo {
             get {
                 object obj = ResourceManager.GetObject("Minecraft-Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pubg_logo {
+            get {
+                object obj = ResourceManager.GetObject("pubg-logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
