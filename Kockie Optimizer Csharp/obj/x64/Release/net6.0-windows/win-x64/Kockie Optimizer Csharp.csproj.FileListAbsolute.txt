@@ -563,7 +563,7 @@ C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csh
 C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\obj\x64\Release\net6.0-windows\win-x64\Kockie Optimizer Csharp.pdb
 C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\obj\x64\Release\net6.0-windows\win-x64\Kockie Optimizer Csharp.genruntimeconfig.cache
 C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\obj\x64\Release\net6.0-windows\win-x64\ref\Kockie Optimizer Csharp.dll
-C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\win-x64\Files\Wz2Alto\config_x3ed1cabba6125393e.cfg
-C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\win-x64\Files\Wz2Baixo\config_x3ed1cabba6125393e.cfg
-C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\win-x64\Files\Wz2VeryLow\config_x3ed1cabba6125393e.cfg
 C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\obj\x64\Release\net6.0-windows\win-x64\Kockie_Optimizer_Csharp.Games5.resources
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\win-x64\Files\Wz2Alto\options.3.cod22.cst
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\win-x64\Files\Wz2Baixo\options.3.cod22.cst
+C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\bin\x64\Release\net6.0-windows\win-x64\Files\Wz2VeryLow\options.3.cod22.cst

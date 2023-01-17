@@ -155,7 +155,7 @@
             this.chk4.CheckedState.InnerColor = System.Drawing.Color.White;
             this.chk4.CheckedState.InnerOffset = 10;
             this.chk4.ForeColor = System.Drawing.Color.Transparent;
-            this.chk4.Location = new System.Drawing.Point(526, 323);
+            this.chk4.Location = new System.Drawing.Point(525, 274);
             this.chk4.Name = "chk4";
             this.chk4.Size = new System.Drawing.Size(25, 25);
             this.chk4.TabIndex = 60;
@@ -175,7 +175,7 @@
             this.chk3.CheckedState.InnerColor = System.Drawing.Color.White;
             this.chk3.CheckedState.InnerOffset = 10;
             this.chk3.ForeColor = System.Drawing.Color.Transparent;
-            this.chk3.Location = new System.Drawing.Point(526, 273);
+            this.chk3.Location = new System.Drawing.Point(525, 224);
             this.chk3.Name = "chk3";
             this.chk3.Size = new System.Drawing.Size(25, 25);
             this.chk3.TabIndex = 59;
@@ -196,7 +196,7 @@
             this.btnOT2.FillColor = System.Drawing.Color.DodgerBlue;
             this.btnOT2.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnOT2.ForeColor = System.Drawing.Color.White;
-            this.btnOT2.Location = new System.Drawing.Point(468, 368);
+            this.btnOT2.Location = new System.Drawing.Point(467, 319);
             this.btnOT2.Name = "btnOT2";
             this.btnOT2.Size = new System.Drawing.Size(180, 45);
             this.btnOT2.TabIndex = 58;
@@ -208,7 +208,7 @@
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.AliceBlue;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(557, 325);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(556, 276);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             this.guna2HtmlLabel4.Size = new System.Drawing.Size(46, 23);
             this.guna2HtmlLabel4.TabIndex = 57;
@@ -219,7 +219,7 @@
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.AliceBlue;
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(557, 275);
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(556, 226);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
             this.guna2HtmlLabel5.Size = new System.Drawing.Size(35, 23);
             this.guna2HtmlLabel5.TabIndex = 56;
@@ -230,7 +230,7 @@
             this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.Image = global::Kockie_Optimizer_Csharp.Properties.Resources.Minecraft_Logo;
             this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(368, 88);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(367, 39);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
             this.guna2PictureBox2.Size = new System.Drawing.Size(374, 196);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -242,7 +242,7 @@
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.AliceBlue;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(500, 241);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(499, 192);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(117, 23);
             this.guna2HtmlLabel1.TabIndex = 61;
@@ -273,7 +273,7 @@
             this.chk6.CheckedState.InnerColor = System.Drawing.Color.White;
             this.chk6.CheckedState.InnerOffset = 10;
             this.chk6.ForeColor = System.Drawing.Color.Transparent;
-            this.chk6.Location = new System.Drawing.Point(605, 297);
+            this.chk6.Location = new System.Drawing.Point(604, 248);
             this.chk6.Name = "chk6";
             this.chk6.Size = new System.Drawing.Size(25, 25);
             this.chk6.TabIndex = 64;
@@ -289,7 +289,7 @@
             this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel7.ForeColor = System.Drawing.Color.Red;
-            this.guna2HtmlLabel7.Location = new System.Drawing.Point(636, 299);
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(635, 250);
             this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
             this.guna2HtmlLabel7.Size = new System.Drawing.Size(73, 23);
             this.guna2HtmlLabel7.TabIndex = 63;

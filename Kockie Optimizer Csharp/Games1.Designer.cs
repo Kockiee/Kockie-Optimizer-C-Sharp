@@ -43,6 +43,10 @@
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.chk5 = new Guna.UI2.WinForms.Guna2CustomRadioButton();
+            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.chk6 = new Guna.UI2.WinForms.Guna2CustomRadioButton();
+            this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -256,12 +260,78 @@
             this.guna2HtmlLabel6.TabIndex = 29;
             this.guna2HtmlLabel6.Text = "Configurações:";
             // 
+            // chk5
+            // 
+            this.chk5.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.chk5.CheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.chk5.CheckedState.BorderThickness = 0;
+            this.chk5.CheckedState.FillColor = System.Drawing.Color.Crimson;
+            this.chk5.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.chk5.CheckedState.InnerOffset = 10;
+            this.chk5.ForeColor = System.Drawing.Color.Transparent;
+            this.chk5.Location = new System.Drawing.Point(198, 185);
+            this.chk5.Name = "chk5";
+            this.chk5.Size = new System.Drawing.Size(25, 25);
+            this.chk5.TabIndex = 73;
+            this.chk5.Text = "guna2CustomRadioButton1";
+            this.chk5.UncheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.chk5.UncheckedState.BorderThickness = 2;
+            this.chk5.UncheckedState.FillColor = System.Drawing.Color.LightCoral;
+            this.chk5.UncheckedState.InnerColor = System.Drawing.Color.LightCoral;
+            this.chk5.CheckedChanged += new System.EventHandler(this.chk5_CheckedChanged);
+            // 
+            // guna2HtmlLabel7
+            // 
+            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel7.ForeColor = System.Drawing.Color.Red;
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(229, 187);
+            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(73, 23);
+            this.guna2HtmlLabel7.TabIndex = 72;
+            this.guna2HtmlLabel7.Text = "Very Low";
+            // 
+            // chk6
+            // 
+            this.chk6.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.chk6.CheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.chk6.CheckedState.BorderThickness = 0;
+            this.chk6.CheckedState.FillColor = System.Drawing.Color.Crimson;
+            this.chk6.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.chk6.CheckedState.InnerOffset = 10;
+            this.chk6.ForeColor = System.Drawing.Color.Transparent;
+            this.chk6.Location = new System.Drawing.Point(598, 311);
+            this.chk6.Name = "chk6";
+            this.chk6.Size = new System.Drawing.Size(25, 25);
+            this.chk6.TabIndex = 75;
+            this.chk6.Text = "guna2CustomRadioButton1";
+            this.chk6.UncheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.chk6.UncheckedState.BorderThickness = 2;
+            this.chk6.UncheckedState.FillColor = System.Drawing.Color.LightCoral;
+            this.chk6.UncheckedState.InnerColor = System.Drawing.Color.LightCoral;
+            this.chk6.CheckedChanged += new System.EventHandler(this.chk6_CheckedChanged);
+            // 
+            // guna2HtmlLabel8
+            // 
+            this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.Red;
+            this.guna2HtmlLabel8.Location = new System.Drawing.Point(629, 313);
+            this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
+            this.guna2HtmlLabel8.Size = new System.Drawing.Size(73, 23);
+            this.guna2HtmlLabel8.TabIndex = 74;
+            this.guna2HtmlLabel8.Text = "Very Low";
+            // 
             // Games1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.ClientSize = new System.Drawing.Size(755, 487);
+            this.Controls.Add(this.chk6);
+            this.Controls.Add(this.guna2HtmlLabel8);
+            this.Controls.Add(this.chk5);
+            this.Controls.Add(this.guna2HtmlLabel7);
             this.Controls.Add(this.guna2HtmlLabel6);
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.chk4);
@@ -303,5 +373,9 @@
         private FolderBrowserDialog folderBrowserDialog1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
+        private Guna.UI2.WinForms.Guna2CustomRadioButton chk5;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
+        private Guna.UI2.WinForms.Guna2CustomRadioButton chk6;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
     }
 }

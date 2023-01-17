@@ -1,18 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace Kockie_Optimizer_Csharp
+﻿namespace Kockie_Optimizer_Csharp
 {
     public partial class Games3 : Form
     {
         public int chkState;
+        string user = Environment.UserName;
         public Games3()
         {
             InitializeComponent();
@@ -114,9 +105,9 @@ namespace Kockie_Optimizer_Csharp
         private void configinRoblox(string localoftheconfiguration)
         {
             string config = Application.StartupPath + $"Files\\{localoftheconfiguration}\\GlobalBasicSettings_13.xml";
-            if (Directory.Exists(Application.LocalUserAppDataPath + "\\Local\\Roblox"))
+            if (Directory.Exists($"C:\\Users\\{user}\\AppData\\Local\\Roblox"))
             {
-                string destiny = Application.LocalUserAppDataPath + "\\Local\\Roblox";
+                string destiny = $"C:\\Users\\{user}\\AppData\\Local\\Roblox";
                 if (File.Exists(destiny + "\\GlobalBasicSettings_13.xml"))
                 {
                     File.Copy(config, destiny + "\\GlobalBasicSettings_13.xml", true);

@@ -1,21 +1,12 @@
 ﻿using Microsoft.Win32;
-using System;
-using System.CodeDom.Compiler;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using static System.Windows.Forms.Design.AxImporter;
+using System.Security.Principal;
 
 namespace Kockie_Optimizer_Csharp
 {
     public partial class Games5 : Form
     {
         public int chkState;
+        string user = Environment.UserName;
         public Games5()
         {
             InitializeComponent();
@@ -36,6 +27,21 @@ namespace Kockie_Optimizer_Csharp
             chkState = 3;
         }
 
+        private void chk4_CheckedChanged(object sender, EventArgs e)
+        {
+            chkState = 4;
+        }
+
+        private void chk5_CheckedChanged(object sender, EventArgs e)
+        {
+            chkState = 5;
+        }
+
+        private void chk6_CheckedChanged(object sender, EventArgs e)
+        {
+            chkState = 6;
+        }
+
         private void btnOT1_Click(object sender, EventArgs e)
         {
             Registry.SetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\cod.exe\PerfOptions", "CpuPriorityClass", 3, RegistryValueKind.DWord);
@@ -49,11 +55,27 @@ namespace Kockie_Optimizer_Csharp
             }
             else if (chkState == 3)
             {
-                configinWarzone2("Wz2VeryLow");
+                configinWarzone2("Wz2Verylow");
             }
             else
             {
                 MessageBox.Show("Selecione uma opção válida.");
+            }
+        }
+
+        private void btnOT2_Click(object sender, EventArgs e)
+        {
+            if (chkState == 4)
+            {
+                configinPUBG("PubgAlto");
+            }
+            else if (chkState == 5)
+            {
+                configinPUBG("PubgBaixo");
+            }
+            else if (chkState == 6)
+            {
+                configinPUBG("PubgVerylow");
             }
         }
 
@@ -82,6 +104,48 @@ namespace Kockie_Optimizer_Csharp
                 if (dialog == DialogResult.OK)
                 {
                     string destiny = folderBrowserDialog1.SelectedPath + "\\options.3.cod22.cst";
+                    if (File.Exists(destiny))
+                    {
+                        File.Copy(config, destiny, true);
+                        MessageBox.Show("Alteração feita com sucesso !");
+                    }
+                    else
+                    {
+                        var settingsFile = File.Create(destiny);
+                        settingsFile.Close();
+                        File.Copy(config, destiny, true);
+                        MessageBox.Show("Alteração feita com sucesso !");
+                    }
+                }
+            }
+        }
+
+        private void configinPUBG(string localoftheconfiguration)
+        {
+
+            string config = Application.StartupPath + $"Files\\{localoftheconfiguration}\\GameUserSettings.ini";
+            if (Directory.Exists($"C:\\Users\\{user}\\AppData\\Local\\TslGame\\Saved\\Config\\WindowsNoEditor"))
+            {
+                string destiny = $"C:\\Users\\{user}\\AppData\\Local\\TslGame\\Saved\\Config\\WindowsNoEditor\\GameUserSettings.ini";
+                if (File.Exists(destiny))
+                {
+                    File.Copy(config, destiny, true);
+                    MessageBox.Show("Alteração feita com sucesso !");
+                }
+                else
+                {
+                    var settingsFile = File.Create(destiny);
+                    settingsFile.Close();
+                    File.Copy(config, destiny, true);
+                    MessageBox.Show("Alteração feita com sucesso !");
+                }
+            }
+            else
+            {
+                DialogResult dialog = this.folderBrowserDialog1.ShowDialog();
+                if (dialog == DialogResult.OK)
+                {
+                    string destiny = folderBrowserDialog1.SelectedPath + @"/GameUserSettings.ini";
                     if (File.Exists(destiny))
                     {
                         File.Copy(config, destiny, true);
