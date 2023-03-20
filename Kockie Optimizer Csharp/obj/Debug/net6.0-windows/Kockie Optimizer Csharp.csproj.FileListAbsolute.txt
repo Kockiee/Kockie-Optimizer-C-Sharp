@@ -172,3 +172,6 @@ C:\Users\Miguel Eduardo\Documents\programação\Kockie-Optimizer-C-Sharp\Kockie 
 C:\Users\Miguel Eduardo\Documents\programação\Kockie-Optimizer-C-Sharp\Kockie Optimizer Csharp\bin\Debug\net6.0-windows\Files\PubgAlto\GameUserSettings.ini
 C:\Users\Miguel Eduardo\Documents\programação\Kockie-Optimizer-C-Sharp\Kockie Optimizer Csharp\bin\Debug\net6.0-windows\Files\PubgBaixo\GameUserSettings.ini
 C:\Users\Miguel Eduardo\Documents\programação\Kockie-Optimizer-C-Sharp\Kockie Optimizer Csharp\bin\Debug\net6.0-windows\Files\PubgVerylow\GameUserSettings.ini
+C:\Users\Miguel Eduardo\Documents\programação\Kockie-Optimizer-C-Sharp\Kockie Optimizer Csharp\bin\Debug\net6.0-windows\Files\FortVerylow\GameUserSettings.ini
+C:\Users\Miguel Eduardo\Documents\programação\Kockie-Optimizer-C-Sharp\Kockie Optimizer Csharp\bin\Debug\net6.0-windows\Files\GtavVerylow\Commandline.txt
+C:\Users\Miguel Eduardo\Documents\programação\Kockie-Optimizer-C-Sharp\Kockie Optimizer Csharp\obj\Debug\net6.0-windows\Kockie_Optimizer_Csharp.OD.resources

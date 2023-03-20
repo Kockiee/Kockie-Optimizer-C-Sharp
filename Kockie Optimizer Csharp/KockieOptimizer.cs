@@ -19,7 +19,7 @@ namespace Kockie_Optimizer_Csharp
 
         [System.Runtime.InteropServices.DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
-        
+
         private void HideNB()
         {
             btnBack.Hide();
@@ -37,6 +37,12 @@ namespace Kockie_Optimizer_Csharp
             btnNext.Show();
             btnBack.Show();
             Utilities.OpenForm<Games1>();
+        }
+
+        private void lblDiskOptions_Click(object sender, EventArgs e)
+        {
+            HideNB();
+            Utilities.OpenForm<OD>();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -82,12 +88,12 @@ namespace Kockie_Optimizer_Csharp
 
         private void btnNext_Click(object sender, EventArgs e)
         {
-            if(FormGameState == 0)
+            if (FormGameState == 0)
             {
                 Utilities.OpenForm<Games2>();
                 FormGameState = 1;
             }
-            else if(FormGameState == 1)
+            else if (FormGameState == 1)
             {
                 Utilities.OpenForm<Games3>();
                 FormGameState = 2;
@@ -192,6 +198,11 @@ namespace Kockie_Optimizer_Csharp
             lblUtilities.ForeColor = Color.Silver;
         }
 
+        private void lblDiskOptions_MouseHover(object sender, EventArgs e)
+        {
+            lblDiskOptions.ForeColor = Color.Silver;
+        }
+
         private void lblOtimizarJogos_MouseLeave(object sender, EventArgs e)
         {
             lblOtimizarJogos.ForeColor = Color.White;
@@ -211,6 +222,11 @@ namespace Kockie_Optimizer_Csharp
         {
             HideNB();
             Utilities.OpenForm<InitialPnl>();
+        }
+
+        private void lblDiskOptions_MouseLeave(object sender, EventArgs e)
+        {
+            lblDiskOptions.ForeColor = Color.White;
         }
     }
 }

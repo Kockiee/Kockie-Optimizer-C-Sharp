@@ -28,452 +28,475 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(KockieOptimizer));
-            this.panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.lblDATE = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.lblOS = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.btnMaximize = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.btnMinimize = new Guna.UI2.WinForms.Guna2Button();
-            this.btnClose = new Guna.UI2.WinForms.Guna2Button();
-            this.btnNext = new Guna.UI2.WinForms.Guna2Button();
-            this.btnBack = new Guna.UI2.WinForms.Guna2Button();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.lblOtimizarJogos = new System.Windows.Forms.Label();
-            this.guna2Separator2 = new Guna.UI2.WinForms.Guna2Separator();
-            this.btnInicio = new Guna.UI2.WinForms.Guna2Button();
-            this.lblOtimizarWindows = new System.Windows.Forms.Label();
-            this.guna2vSeparator2 = new Guna.UI2.WinForms.Guna2VSeparator();
-            this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
-            this.guna2vSeparator1 = new Guna.UI2.WinForms.Guna2VSeparator();
-            this.lblUtilities = new System.Windows.Forms.Label();
-            this.btnYoutube = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.btnGithub = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.btnDiscord = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.guna2ResizeForm1 = new Guna.UI2.WinForms.Guna2ResizeForm(this.components);
-            this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
-            this.pnlMain = new System.Windows.Forms.Panel();
-            this.lblAutor = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
-            this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.SuspendLayout();
+            panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            lblDATE = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            lblOS = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            btnMaximize = new Guna.UI2.WinForms.Guna2Button();
+            guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            btnMinimize = new Guna.UI2.WinForms.Guna2Button();
+            btnClose = new Guna.UI2.WinForms.Guna2Button();
+            btnNext = new Guna.UI2.WinForms.Guna2Button();
+            btnBack = new Guna.UI2.WinForms.Guna2Button();
+            panel2 = new Panel();
+            guna2Separator3 = new Guna.UI2.WinForms.Guna2Separator();
+            lblDiskOptions = new Label();
+            lblOtimizarJogos = new Label();
+            guna2Separator2 = new Guna.UI2.WinForms.Guna2Separator();
+            btnInicio = new Guna.UI2.WinForms.Guna2Button();
+            lblOtimizarWindows = new Label();
+            guna2vSeparator2 = new Guna.UI2.WinForms.Guna2VSeparator();
+            guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
+            guna2vSeparator1 = new Guna.UI2.WinForms.Guna2VSeparator();
+            lblUtilities = new Label();
+            btnYoutube = new Guna.UI2.WinForms.Guna2ImageButton();
+            btnGithub = new Guna.UI2.WinForms.Guna2ImageButton();
+            btnDiscord = new Guna.UI2.WinForms.Guna2ImageButton();
+            timer1 = new System.Windows.Forms.Timer(components);
+            guna2ResizeForm1 = new Guna.UI2.WinForms.Guna2ResizeForm(components);
+            guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(components);
+            pnlMain = new Panel();
+            lblAutor = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(components);
+            guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(components);
+            label1 = new Label();
+            panel1.SuspendLayout();
+            panel2.SuspendLayout();
+            SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.AllowDrop = true;
-            this.panel1.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel1.Controls.Add(this.lblDATE);
-            this.panel1.Controls.Add(this.lblOS);
-            this.panel1.Controls.Add(this.btnMaximize);
-            this.panel1.Controls.Add(this.guna2HtmlLabel1);
-            this.panel1.Controls.Add(this.btnMinimize);
-            this.panel1.Controls.Add(this.btnClose);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.panel1.Size = new System.Drawing.Size(1048, 74);
-            this.panel1.TabIndex = 1;
-            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
+            panel1.AllowDrop = true;
+            panel1.BackColor = Color.DarkSlateBlue;
+            panel1.BackgroundImageLayout = ImageLayout.None;
+            panel1.Controls.Add(lblDATE);
+            panel1.Controls.Add(lblOS);
+            panel1.Controls.Add(btnMaximize);
+            panel1.Controls.Add(guna2HtmlLabel1);
+            panel1.Controls.Add(btnMinimize);
+            panel1.Controls.Add(btnClose);
+            panel1.Dock = DockStyle.Top;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.RightToLeft = RightToLeft.No;
+            panel1.Size = new Size(1048, 74);
+            panel1.TabIndex = 1;
+            panel1.MouseDown += panel1_MouseDown;
             // 
             // lblDATE
             // 
-            this.lblDATE.BackColor = System.Drawing.Color.Transparent;
-            this.lblDATE.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblDATE.Location = new System.Drawing.Point(23, 38);
-            this.lblDATE.Name = "lblDATE";
-            this.lblDATE.Size = new System.Drawing.Size(3, 2);
-            this.lblDATE.TabIndex = 8;
-            this.lblDATE.Text = null;
+            lblDATE.BackColor = Color.Transparent;
+            lblDATE.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lblDATE.Location = new Point(23, 38);
+            lblDATE.Name = "lblDATE";
+            lblDATE.Size = new Size(3, 2);
+            lblDATE.TabIndex = 8;
+            lblDATE.Text = null;
             // 
             // lblOS
             // 
-            this.lblOS.BackColor = System.Drawing.Color.Transparent;
-            this.lblOS.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblOS.Location = new System.Drawing.Point(23, 9);
-            this.lblOS.Name = "lblOS";
-            this.lblOS.Size = new System.Drawing.Size(3, 2);
-            this.lblOS.TabIndex = 7;
-            this.lblOS.Text = null;
+            lblOS.BackColor = Color.Transparent;
+            lblOS.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lblOS.Location = new Point(23, 9);
+            lblOS.Name = "lblOS";
+            lblOS.Size = new Size(3, 2);
+            lblOS.TabIndex = 7;
+            lblOS.Text = null;
             // 
             // btnMaximize
             // 
-            this.btnMaximize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMaximize.BackColor = System.Drawing.Color.Transparent;
-            this.btnMaximize.BorderRadius = 10;
-            this.btnMaximize.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
-            this.btnMaximize.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnMaximize.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnMaximize.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnMaximize.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnMaximize.FillColor = System.Drawing.Color.Red;
-            this.btnMaximize.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnMaximize.ForeColor = System.Drawing.Color.White;
-            this.btnMaximize.Location = new System.Drawing.Point(935, 11);
-            this.btnMaximize.Name = "btnMaximize";
-            this.btnMaximize.Size = new System.Drawing.Size(48, 45);
-            this.btnMaximize.TabIndex = 6;
-            this.btnMaximize.Text = "▢";
-            this.btnMaximize.TextOffset = new System.Drawing.Point(0, -2);
-            this.btnMaximize.Click += new System.EventHandler(this.btnMaximize_Click);
+            btnMaximize.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnMaximize.BackColor = Color.Transparent;
+            btnMaximize.BorderRadius = 10;
+            btnMaximize.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
+            btnMaximize.DisabledState.BorderColor = Color.DarkGray;
+            btnMaximize.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnMaximize.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnMaximize.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnMaximize.FillColor = Color.Red;
+            btnMaximize.Font = new Font("Microsoft Sans Serif", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            btnMaximize.ForeColor = Color.White;
+            btnMaximize.Location = new Point(935, 11);
+            btnMaximize.Name = "btnMaximize";
+            btnMaximize.Size = new Size(48, 45);
+            btnMaximize.TabIndex = 6;
+            btnMaximize.Text = "▢";
+            btnMaximize.TextOffset = new Point(0, -2);
+            btnMaximize.Click += btnMaximize_Click;
             // 
             // guna2HtmlLabel1
             // 
-            this.guna2HtmlLabel1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(363, 4);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(391, 67);
-            this.guna2HtmlLabel1.TabIndex = 3;
-            this.guna2HtmlLabel1.TabStop = false;
-            this.guna2HtmlLabel1.Text = "Kockie Optimizer";
-            this.guna2HtmlLabel1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            guna2HtmlLabel1.Anchor = AnchorStyles.Top;
+            guna2HtmlLabel1.BackColor = Color.Transparent;
+            guna2HtmlLabel1.Font = new Font("Mula R Black", 36F, FontStyle.Bold, GraphicsUnit.Point);
+            guna2HtmlLabel1.ForeColor = Color.White;
+            guna2HtmlLabel1.Location = new Point(363, 4);
+            guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            guna2HtmlLabel1.Size = new Size(397, 69);
+            guna2HtmlLabel1.TabIndex = 3;
+            guna2HtmlLabel1.TabStop = false;
+            guna2HtmlLabel1.Text = "Kockie Optimizer";
+            guna2HtmlLabel1.TextAlignment = ContentAlignment.MiddleCenter;
             // 
             // btnMinimize
             // 
-            this.btnMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMinimize.BackColor = System.Drawing.Color.Transparent;
-            this.btnMinimize.BorderRadius = 10;
-            this.btnMinimize.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
-            this.btnMinimize.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnMinimize.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnMinimize.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnMinimize.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnMinimize.FillColor = System.Drawing.Color.Red;
-            this.btnMinimize.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnMinimize.ForeColor = System.Drawing.Color.White;
-            this.btnMinimize.Location = new System.Drawing.Point(881, 11);
-            this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(48, 45);
-            this.btnMinimize.TabIndex = 5;
-            this.btnMinimize.Text = "-";
-            this.btnMinimize.TextOffset = new System.Drawing.Point(0, -2);
-            this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
+            btnMinimize.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnMinimize.BackColor = Color.Transparent;
+            btnMinimize.BorderRadius = 10;
+            btnMinimize.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
+            btnMinimize.DisabledState.BorderColor = Color.DarkGray;
+            btnMinimize.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnMinimize.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnMinimize.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnMinimize.FillColor = Color.Red;
+            btnMinimize.Font = new Font("Microsoft Sans Serif", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            btnMinimize.ForeColor = Color.White;
+            btnMinimize.Location = new Point(881, 11);
+            btnMinimize.Name = "btnMinimize";
+            btnMinimize.Size = new Size(48, 45);
+            btnMinimize.TabIndex = 5;
+            btnMinimize.Text = "-";
+            btnMinimize.TextOffset = new Point(0, -2);
+            btnMinimize.Click += btnMinimize_Click;
             // 
             // btnClose
             // 
-            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnClose.BackColor = System.Drawing.Color.Transparent;
-            this.btnClose.BorderRadius = 10;
-            this.btnClose.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
-            this.btnClose.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnClose.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnClose.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnClose.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnClose.FillColor = System.Drawing.Color.Red;
-            this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnClose.ForeColor = System.Drawing.Color.White;
-            this.btnClose.Location = new System.Drawing.Point(989, 11);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(48, 45);
-            this.btnClose.TabIndex = 4;
-            this.btnClose.Text = "x";
-            this.btnClose.TextOffset = new System.Drawing.Point(0, -2);
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            btnClose.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnClose.BackColor = Color.Transparent;
+            btnClose.BorderRadius = 10;
+            btnClose.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
+            btnClose.DisabledState.BorderColor = Color.DarkGray;
+            btnClose.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnClose.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnClose.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnClose.FillColor = Color.Red;
+            btnClose.Font = new Font("Microsoft Sans Serif", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            btnClose.ForeColor = Color.White;
+            btnClose.Location = new Point(989, 11);
+            btnClose.Name = "btnClose";
+            btnClose.Size = new Size(48, 45);
+            btnClose.TabIndex = 4;
+            btnClose.Text = "x";
+            btnClose.TextOffset = new Point(0, -2);
+            btnClose.Click += btnClose_Click;
             // 
             // btnNext
             // 
-            this.btnNext.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnNext.BackColor = System.Drawing.Color.Transparent;
-            this.btnNext.BorderColor = System.Drawing.Color.White;
-            this.btnNext.BorderRadius = 10;
-            this.btnNext.BorderThickness = 2;
-            this.btnNext.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnNext.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnNext.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnNext.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnNext.FillColor = System.Drawing.Color.Transparent;
-            this.btnNext.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnNext.ForeColor = System.Drawing.Color.White;
-            this.btnNext.HoverState.BorderColor = System.Drawing.Color.LightGray;
-            this.btnNext.HoverState.FillColor = System.Drawing.Color.Transparent;
-            this.btnNext.HoverState.ForeColor = System.Drawing.Color.LightGray;
-            this.btnNext.Location = new System.Drawing.Point(273, 574);
-            this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(56, 55);
-            this.btnNext.TabIndex = 1;
-            this.btnNext.Text = ">";
-            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
+            btnNext.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnNext.BackColor = Color.Transparent;
+            btnNext.BorderColor = Color.White;
+            btnNext.BorderRadius = 10;
+            btnNext.BorderThickness = 2;
+            btnNext.DisabledState.BorderColor = Color.DarkGray;
+            btnNext.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnNext.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnNext.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnNext.FillColor = Color.Transparent;
+            btnNext.Font = new Font("Mula Bold", 27.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnNext.ForeColor = Color.White;
+            btnNext.HoverState.BorderColor = Color.LightGray;
+            btnNext.HoverState.FillColor = Color.Transparent;
+            btnNext.HoverState.ForeColor = Color.LightGray;
+            btnNext.Location = new Point(273, 574);
+            btnNext.Name = "btnNext";
+            btnNext.Size = new Size(56, 55);
+            btnNext.TabIndex = 1;
+            btnNext.Text = ">";
+            btnNext.Click += btnNext_Click;
             // 
             // btnBack
             // 
-            this.btnBack.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnBack.BackColor = System.Drawing.Color.Transparent;
-            this.btnBack.BorderColor = System.Drawing.Color.White;
-            this.btnBack.BorderRadius = 10;
-            this.btnBack.BorderThickness = 2;
-            this.btnBack.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnBack.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnBack.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnBack.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnBack.FillColor = System.Drawing.Color.Transparent;
-            this.btnBack.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnBack.ForeColor = System.Drawing.Color.White;
-            this.btnBack.HoverState.BorderColor = System.Drawing.Color.LightGray;
-            this.btnBack.HoverState.FillColor = System.Drawing.Color.Transparent;
-            this.btnBack.HoverState.ForeColor = System.Drawing.Color.LightGray;
-            this.btnBack.Location = new System.Drawing.Point(211, 574);
-            this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(56, 55);
-            this.btnBack.TabIndex = 0;
-            this.btnBack.Text = "<";
-            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            btnBack.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnBack.BackColor = Color.Transparent;
+            btnBack.BorderColor = Color.White;
+            btnBack.BorderRadius = 10;
+            btnBack.BorderThickness = 2;
+            btnBack.DisabledState.BorderColor = Color.DarkGray;
+            btnBack.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnBack.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnBack.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnBack.FillColor = Color.Transparent;
+            btnBack.Font = new Font("Mula Bold", 27.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnBack.ForeColor = Color.White;
+            btnBack.HoverState.BorderColor = Color.LightGray;
+            btnBack.HoverState.FillColor = Color.Transparent;
+            btnBack.HoverState.ForeColor = Color.LightGray;
+            btnBack.Location = new Point(211, 574);
+            btnBack.Name = "btnBack";
+            btnBack.Size = new Size(56, 55);
+            btnBack.TabIndex = 0;
+            btnBack.Text = "<";
+            btnBack.Click += btnBack_Click;
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel2.Controls.Add(this.lblOtimizarJogos);
-            this.panel2.Controls.Add(this.guna2Separator2);
-            this.panel2.Controls.Add(this.btnInicio);
-            this.panel2.Controls.Add(this.lblOtimizarWindows);
-            this.panel2.Controls.Add(this.guna2vSeparator2);
-            this.panel2.Controls.Add(this.guna2Separator1);
-            this.panel2.Controls.Add(this.guna2vSeparator1);
-            this.panel2.Controls.Add(this.lblUtilities);
-            this.panel2.Controls.Add(this.btnYoutube);
-            this.panel2.Controls.Add(this.btnGithub);
-            this.panel2.Controls.Add(this.btnDiscord);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel2.Location = new System.Drawing.Point(0, 74);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 567);
-            this.panel2.TabIndex = 2;
+            panel2.BackColor = Color.FromArgb(64, 64, 64);
+            panel2.Controls.Add(guna2Separator3);
+            panel2.Controls.Add(lblDiskOptions);
+            panel2.Controls.Add(lblOtimizarJogos);
+            panel2.Controls.Add(guna2Separator2);
+            panel2.Controls.Add(btnInicio);
+            panel2.Controls.Add(lblOtimizarWindows);
+            panel2.Controls.Add(guna2vSeparator2);
+            panel2.Controls.Add(guna2Separator1);
+            panel2.Controls.Add(guna2vSeparator1);
+            panel2.Controls.Add(lblUtilities);
+            panel2.Controls.Add(btnYoutube);
+            panel2.Controls.Add(btnGithub);
+            panel2.Controls.Add(btnDiscord);
+            panel2.Dock = DockStyle.Left;
+            panel2.ForeColor = SystemColors.ControlDarkDark;
+            panel2.Location = new Point(0, 74);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(205, 567);
+            panel2.TabIndex = 2;
+            // 
+            // guna2Separator3
+            // 
+            guna2Separator3.FillColor = Color.FromArgb(128, 128, 255);
+            guna2Separator3.Location = new Point(38, 191);
+            guna2Separator3.Name = "guna2Separator3";
+            guna2Separator3.Size = new Size(124, 14);
+            guna2Separator3.TabIndex = 12;
+            // 
+            // lblDiskOptions
+            // 
+            lblDiskOptions.AutoSize = true;
+            lblDiskOptions.Font = new Font("Mula Bold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            lblDiskOptions.ForeColor = Color.White;
+            lblDiskOptions.Location = new Point(14, 208);
+            lblDiskOptions.Name = "lblDiskOptions";
+            lblDiskOptions.Size = new Size(181, 29);
+            lblDiskOptions.TabIndex = 11;
+            lblDiskOptions.Text = "Opções de disco";
+            lblDiskOptions.Click += lblDiskOptions_Click;
             // 
             // lblOtimizarJogos
             // 
-            this.lblOtimizarJogos.AutoSize = true;
-            this.lblOtimizarJogos.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblOtimizarJogos.ForeColor = System.Drawing.Color.White;
-            this.lblOtimizarJogos.Location = new System.Drawing.Point(20, 111);
-            this.lblOtimizarJogos.Name = "lblOtimizarJogos";
-            this.lblOtimizarJogos.Size = new System.Drawing.Size(160, 30);
-            this.lblOtimizarJogos.TabIndex = 1;
-            this.lblOtimizarJogos.Text = "Otimizar Jogos";
-            this.lblOtimizarJogos.Click += new System.EventHandler(this.lblOtimizarJogos_Click);
-            this.lblOtimizarJogos.MouseLeave += new System.EventHandler(this.lblOtimizarJogos_MouseLeave);
-            this.lblOtimizarJogos.MouseHover += new System.EventHandler(this.lblOtimizarJogos_MouseHover);
+            lblOtimizarJogos.AutoSize = true;
+            lblOtimizarJogos.Font = new Font("Mula Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            lblOtimizarJogos.ForeColor = Color.White;
+            lblOtimizarJogos.Location = new Point(20, 111);
+            lblOtimizarJogos.Name = "lblOtimizarJogos";
+            lblOtimizarJogos.Size = new Size(170, 29);
+            lblOtimizarJogos.TabIndex = 1;
+            lblOtimizarJogos.Text = "Otimizar Jogos";
+            lblOtimizarJogos.Click += lblOtimizarJogos_Click;
+            lblOtimizarJogos.MouseLeave += lblOtimizarJogos_MouseLeave;
+            lblOtimizarJogos.MouseHover += lblOtimizarJogos_MouseHover;
             // 
             // guna2Separator2
             // 
-            this.guna2Separator2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.guna2Separator2.Location = new System.Drawing.Point(38, 144);
-            this.guna2Separator2.Name = "guna2Separator2";
-            this.guna2Separator2.Size = new System.Drawing.Size(124, 14);
-            this.guna2Separator2.TabIndex = 8;
+            guna2Separator2.FillColor = Color.FromArgb(128, 128, 255);
+            guna2Separator2.Location = new Point(38, 144);
+            guna2Separator2.Name = "guna2Separator2";
+            guna2Separator2.Size = new Size(124, 14);
+            guna2Separator2.TabIndex = 8;
             // 
             // btnInicio
             // 
-            this.btnInicio.BorderRadius = 2;
-            this.btnInicio.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnInicio.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnInicio.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnInicio.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnInicio.FillColor = System.Drawing.Color.SlateBlue;
-            this.btnInicio.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnInicio.ForeColor = System.Drawing.Color.White;
-            this.btnInicio.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnInicio.Location = new System.Drawing.Point(34, 8);
-            this.btnInicio.Name = "btnInicio";
-            this.btnInicio.Size = new System.Drawing.Size(135, 33);
-            this.btnInicio.TabIndex = 10;
-            this.btnInicio.Text = "Início";
-            this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
+            btnInicio.BorderRadius = 2;
+            btnInicio.DisabledState.BorderColor = Color.DarkGray;
+            btnInicio.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnInicio.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnInicio.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnInicio.FillColor = Color.SlateBlue;
+            btnInicio.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnInicio.ForeColor = Color.White;
+            btnInicio.HoverState.FillColor = Color.FromArgb(128, 128, 255);
+            btnInicio.Location = new Point(34, 8);
+            btnInicio.Name = "btnInicio";
+            btnInicio.Size = new Size(135, 33);
+            btnInicio.TabIndex = 10;
+            btnInicio.Text = "Início";
+            btnInicio.Click += btnInicio_Click;
             // 
             // lblOtimizarWindows
             // 
-            this.lblOtimizarWindows.AutoSize = true;
-            this.lblOtimizarWindows.BackColor = System.Drawing.Color.Transparent;
-            this.lblOtimizarWindows.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblOtimizarWindows.ForeColor = System.Drawing.Color.White;
-            this.lblOtimizarWindows.Location = new System.Drawing.Point(3, 66);
-            this.lblOtimizarWindows.Name = "lblOtimizarWindows";
-            this.lblOtimizarWindows.Size = new System.Drawing.Size(195, 30);
-            this.lblOtimizarWindows.TabIndex = 0;
-            this.lblOtimizarWindows.Text = "Otimizar Windows";
-            this.lblOtimizarWindows.Click += new System.EventHandler(this.lblOtimizarWindows_Click);
-            this.lblOtimizarWindows.MouseLeave += new System.EventHandler(this.lblOtimizarWindows_MouseLeave);
-            this.lblOtimizarWindows.MouseHover += new System.EventHandler(this.lblOtimizarWindows_MouseHover);
+            lblOtimizarWindows.AutoSize = true;
+            lblOtimizarWindows.BackColor = Color.Transparent;
+            lblOtimizarWindows.Font = new Font("Mula Bold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            lblOtimizarWindows.ForeColor = Color.White;
+            lblOtimizarWindows.Location = new Point(3, 66);
+            lblOtimizarWindows.Name = "lblOtimizarWindows";
+            lblOtimizarWindows.Size = new Size(200, 29);
+            lblOtimizarWindows.TabIndex = 0;
+            lblOtimizarWindows.Text = "Otimizar Windows";
+            lblOtimizarWindows.Click += lblOtimizarWindows_Click;
+            lblOtimizarWindows.MouseLeave += lblOtimizarWindows_MouseLeave;
+            lblOtimizarWindows.MouseHover += lblOtimizarWindows_MouseHover;
             // 
             // guna2vSeparator2
             // 
-            this.guna2vSeparator2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.guna2vSeparator2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.guna2vSeparator2.Location = new System.Drawing.Point(57, 517);
-            this.guna2vSeparator2.Name = "guna2vSeparator2";
-            this.guna2vSeparator2.Size = new System.Drawing.Size(10, 34);
-            this.guna2vSeparator2.TabIndex = 6;
+            guna2vSeparator2.Anchor = AnchorStyles.Bottom;
+            guna2vSeparator2.FillColor = Color.FromArgb(128, 128, 255);
+            guna2vSeparator2.Location = new Point(65, 517);
+            guna2vSeparator2.Name = "guna2vSeparator2";
+            guna2vSeparator2.Size = new Size(10, 34);
+            guna2vSeparator2.TabIndex = 6;
             // 
             // guna2Separator1
             // 
-            this.guna2Separator1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.guna2Separator1.Location = new System.Drawing.Point(38, 99);
-            this.guna2Separator1.Name = "guna2Separator1";
-            this.guna2Separator1.Size = new System.Drawing.Size(124, 14);
-            this.guna2Separator1.TabIndex = 7;
+            guna2Separator1.FillColor = Color.FromArgb(128, 128, 255);
+            guna2Separator1.Location = new Point(38, 99);
+            guna2Separator1.Name = "guna2Separator1";
+            guna2Separator1.Size = new Size(124, 14);
+            guna2Separator1.TabIndex = 7;
             // 
             // guna2vSeparator1
             // 
-            this.guna2vSeparator1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.guna2vSeparator1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.guna2vSeparator1.Location = new System.Drawing.Point(122, 517);
-            this.guna2vSeparator1.Name = "guna2vSeparator1";
-            this.guna2vSeparator1.Size = new System.Drawing.Size(10, 34);
-            this.guna2vSeparator1.TabIndex = 0;
+            guna2vSeparator1.Anchor = AnchorStyles.Bottom;
+            guna2vSeparator1.FillColor = Color.FromArgb(128, 128, 255);
+            guna2vSeparator1.Location = new Point(130, 517);
+            guna2vSeparator1.Name = "guna2vSeparator1";
+            guna2vSeparator1.Size = new Size(10, 34);
+            guna2vSeparator1.TabIndex = 0;
             // 
             // lblUtilities
             // 
-            this.lblUtilities.AutoSize = true;
-            this.lblUtilities.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblUtilities.ForeColor = System.Drawing.Color.White;
-            this.lblUtilities.Location = new System.Drawing.Point(45, 160);
-            this.lblUtilities.Name = "lblUtilities";
-            this.lblUtilities.Size = new System.Drawing.Size(111, 30);
-            this.lblUtilities.TabIndex = 5;
-            this.lblUtilities.Text = "Utilidades";
-            this.lblUtilities.Click += new System.EventHandler(this.lblUtilities_Click);
-            this.lblUtilities.MouseLeave += new System.EventHandler(this.lblUtilities_MouseLeave);
-            this.lblUtilities.MouseHover += new System.EventHandler(this.lblUtilities_MouseHover);
+            lblUtilities.AutoSize = true;
+            lblUtilities.Font = new Font("Mula Bold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            lblUtilities.ForeColor = Color.White;
+            lblUtilities.Location = new Point(45, 160);
+            lblUtilities.Name = "lblUtilities";
+            lblUtilities.Size = new Size(119, 29);
+            lblUtilities.TabIndex = 5;
+            lblUtilities.Text = "Utilidades";
+            lblUtilities.Click += lblUtilities_Click;
+            lblUtilities.MouseLeave += lblUtilities_MouseLeave;
+            lblUtilities.MouseHover += lblUtilities_MouseHover;
             // 
             // btnYoutube
             // 
-            this.btnYoutube.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnYoutube.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnYoutube.HoverState.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnYoutube.Image = global::Kockie_Optimizer_Csharp.Properties.Resources.free_youtube_logo_icon_2431_thumb;
-            this.btnYoutube.ImageOffset = new System.Drawing.Point(0, 0);
-            this.btnYoutube.ImageRotate = 0F;
-            this.btnYoutube.ImageSize = new System.Drawing.Size(32, 32);
-            this.btnYoutube.Location = new System.Drawing.Point(0, 509);
-            this.btnYoutube.Name = "btnYoutube";
-            this.btnYoutube.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnYoutube.Size = new System.Drawing.Size(62, 55);
-            this.btnYoutube.TabIndex = 4;
-            this.btnYoutube.Click += new System.EventHandler(this.btnYoutube_Click);
+            btnYoutube.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnYoutube.CheckedState.ImageSize = new Size(64, 64);
+            btnYoutube.HoverState.ImageSize = new Size(40, 40);
+            btnYoutube.Image = Properties.Resources.free_youtube_logo_icon_2431_thumb;
+            btnYoutube.ImageOffset = new Point(0, 0);
+            btnYoutube.ImageRotate = 0F;
+            btnYoutube.ImageSize = new Size(32, 32);
+            btnYoutube.Location = new Point(6, 509);
+            btnYoutube.Name = "btnYoutube";
+            btnYoutube.PressedState.ImageSize = new Size(64, 64);
+            btnYoutube.Size = new Size(62, 55);
+            btnYoutube.TabIndex = 4;
+            btnYoutube.Click += btnYoutube_Click;
             // 
             // btnGithub
             // 
-            this.btnGithub.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnGithub.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnGithub.HoverState.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnGithub.Image = global::Kockie_Optimizer_Csharp.Properties.Resources._25231;
-            this.btnGithub.ImageOffset = new System.Drawing.Point(0, 0);
-            this.btnGithub.ImageRotate = 0F;
-            this.btnGithub.ImageSize = new System.Drawing.Size(32, 32);
-            this.btnGithub.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnGithub.Location = new System.Drawing.Point(131, 509);
-            this.btnGithub.Name = "btnGithub";
-            this.btnGithub.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnGithub.Size = new System.Drawing.Size(62, 55);
-            this.btnGithub.TabIndex = 3;
-            this.btnGithub.Click += new System.EventHandler(this.btnGithub_Click);
+            btnGithub.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnGithub.CheckedState.ImageSize = new Size(64, 64);
+            btnGithub.HoverState.ImageSize = new Size(40, 40);
+            btnGithub.Image = Properties.Resources._25231;
+            btnGithub.ImageOffset = new Point(0, 0);
+            btnGithub.ImageRotate = 0F;
+            btnGithub.ImageSize = new Size(32, 32);
+            btnGithub.ImeMode = ImeMode.NoControl;
+            btnGithub.Location = new Point(137, 509);
+            btnGithub.Name = "btnGithub";
+            btnGithub.PressedState.ImageSize = new Size(64, 64);
+            btnGithub.Size = new Size(62, 55);
+            btnGithub.TabIndex = 3;
+            btnGithub.Click += btnGithub_Click;
             // 
             // btnDiscord
             // 
-            this.btnDiscord.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnDiscord.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnDiscord.HoverState.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnDiscord.Image = global::Kockie_Optimizer_Csharp.Properties.Resources.discord_logo_4_1;
-            this.btnDiscord.ImageOffset = new System.Drawing.Point(0, 0);
-            this.btnDiscord.ImageRotate = 0F;
-            this.btnDiscord.ImageSize = new System.Drawing.Size(32, 32);
-            this.btnDiscord.Location = new System.Drawing.Point(63, 509);
-            this.btnDiscord.Name = "btnDiscord";
-            this.btnDiscord.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnDiscord.Size = new System.Drawing.Size(62, 55);
-            this.btnDiscord.TabIndex = 2;
-            this.btnDiscord.Click += new System.EventHandler(this.btnDiscord_Click);
+            btnDiscord.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnDiscord.CheckedState.ImageSize = new Size(64, 64);
+            btnDiscord.HoverState.ImageSize = new Size(40, 40);
+            btnDiscord.Image = Properties.Resources.discord_logo_4_1;
+            btnDiscord.ImageOffset = new Point(0, 0);
+            btnDiscord.ImageRotate = 0F;
+            btnDiscord.ImageSize = new Size(32, 32);
+            btnDiscord.Location = new Point(74, 509);
+            btnDiscord.Name = "btnDiscord";
+            btnDiscord.PressedState.ImageSize = new Size(64, 64);
+            btnDiscord.Size = new Size(57, 55);
+            btnDiscord.TabIndex = 2;
+            btnDiscord.Click += btnDiscord_Click;
             // 
             // timer1
             // 
-            this.timer1.Enabled = true;
-            this.timer1.Interval = 1000;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            timer1.Enabled = true;
+            timer1.Interval = 1000;
+            timer1.Tick += timer1_Tick;
             // 
             // guna2ResizeForm1
             // 
-            this.guna2ResizeForm1.TargetForm = this;
+            guna2ResizeForm1.TargetForm = this;
             // 
             // pnlMain
             // 
-            this.pnlMain.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.pnlMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.pnlMain.Location = new System.Drawing.Point(211, 81);
-            this.pnlMain.Name = "pnlMain";
-            this.pnlMain.Size = new System.Drawing.Size(755, 487);
-            this.pnlMain.TabIndex = 4;
+            pnlMain.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            pnlMain.BackColor = Color.FromArgb(37, 37, 37);
+            pnlMain.Location = new Point(211, 81);
+            pnlMain.Name = "pnlMain";
+            pnlMain.Size = new Size(755, 487);
+            pnlMain.TabIndex = 4;
             // 
             // lblAutor
             // 
-            this.lblAutor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblAutor.BackColor = System.Drawing.Color.Transparent;
-            this.lblAutor.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblAutor.ForeColor = System.Drawing.Color.White;
-            this.lblAutor.Location = new System.Drawing.Point(804, 602);
-            this.lblAutor.Name = "lblAutor";
-            this.lblAutor.Size = new System.Drawing.Size(233, 23);
-            this.lblAutor.TabIndex = 5;
-            this.lblAutor.Text = "By Miguel Eduardo (KOCKIE).";
+            lblAutor.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            lblAutor.BackColor = Color.Transparent;
+            lblAutor.Font = new Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lblAutor.ForeColor = Color.White;
+            lblAutor.Location = new Point(804, 602);
+            lblAutor.Name = "lblAutor";
+            lblAutor.Size = new Size(233, 23);
+            lblAutor.TabIndex = 5;
+            lblAutor.Text = "By Miguel Eduardo (KOCKIE).";
             // 
             // guna2ShadowForm1
             // 
-            this.guna2ShadowForm1.BorderRadius = 15;
+            guna2ShadowForm1.BorderRadius = 15;
             // 
             // guna2BorderlessForm1
             // 
-            this.guna2BorderlessForm1.ContainerControl = this;
-            this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
-            this.guna2BorderlessForm1.DragForm = false;
-            this.guna2BorderlessForm1.HasFormShadow = false;
-            this.guna2BorderlessForm1.ResizeForm = false;
-            this.guna2BorderlessForm1.TransparentWhileDrag = true;
+            guna2BorderlessForm1.ContainerControl = this;
+            guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
+            guna2BorderlessForm1.DragForm = false;
+            guna2BorderlessForm1.HasFormShadow = false;
+            guna2BorderlessForm1.ResizeForm = false;
+            guna2BorderlessForm1.TransparentWhileDrag = true;
             // 
             // label1
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(363, 591);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(414, 17);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Algumas Funções Podem Não Estar Funcionando Corretamente !!!";
+            label1.Anchor = AnchorStyles.Bottom;
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = Color.Red;
+            label1.Location = new Point(363, 591);
+            label1.Name = "label1";
+            label1.Size = new Size(414, 17);
+            label1.TabIndex = 6;
+            label1.Text = "Algumas Funções Podem Não Estar Funcionando Corretamente !!!";
             // 
             // KockieOptimizer
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.ClientSize = new System.Drawing.Size(1048, 641);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.lblAutor);
-            this.Controls.Add(this.btnBack);
-            this.Controls.Add(this.btnNext);
-            this.Controls.Add(this.pnlMain);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MinimumSize = new System.Drawing.Size(1048, 641);
-            this.Name = "KockieOptimizer";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(37, 37, 37);
+            ClientSize = new Size(1048, 641);
+            Controls.Add(label1);
+            Controls.Add(lblAutor);
+            Controls.Add(btnBack);
+            Controls.Add(btnNext);
+            Controls.Add(pnlMain);
+            Controls.Add(panel2);
+            Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            MinimumSize = new Size(1048, 641);
+            Name = "KockieOptimizer";
+            Text = "Form1";
+            Load += Form1_Load;
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -506,5 +529,7 @@
         private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
         private Label label1;
         private Guna.UI2.WinForms.Guna2Button btnInicio;
+        private Guna.UI2.WinForms.Guna2Separator guna2Separator3;
+        private Label lblDiskOptions;
     }
 }

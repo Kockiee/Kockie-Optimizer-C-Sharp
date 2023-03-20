@@ -122,7 +122,6 @@ namespace Kockie_Optimizer_Csharp
 
         private void configinPUBG(string localoftheconfiguration)
         {
-
             string config = Application.StartupPath + $"Files\\{localoftheconfiguration}\\GameUserSettings.ini";
             if (Directory.Exists($"C:\\Users\\{user}\\AppData\\Local\\TslGame\\Saved\\Config\\WindowsNoEditor"))
             {

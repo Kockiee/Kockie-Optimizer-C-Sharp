@@ -1,13 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <_LastSelectedProfileId>C:\Users\Miguel\Documents\programação\Kockie Optimizer C#\Kockie Optimizer Csharp\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+    <_LastSelectedProfileId>C:\Users\Miguel Eduardo\Documents\programação\Kockie-Optimizer-C-Sharp\Kockie Optimizer Csharp\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
   </PropertyGroup>
   <ItemGroup>
     <Compile Update="Games5.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="InitialPnl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="OD.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="UT.cs">
