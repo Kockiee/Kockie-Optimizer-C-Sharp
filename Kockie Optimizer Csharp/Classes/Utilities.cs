@@ -63,6 +63,20 @@ namespace Kockie_Optimizer_Csharp.Classes
             }
         }
 
+        internal static void RunCommandWithWindow(string command)
+        {
+            using (Process p = new Process())
+            {
+                p.StartInfo.WindowStyle = ProcessWindowStyle.Normal;
+                p.StartInfo.FileName = "cmd.exe";
+                p.StartInfo.Verb = "runas";
+                p.StartInfo.Arguments = $"/c {command}";
+                p.Start();
+                p.WaitForExit();
+                p.Close();
+            }
+        }
+
         internal static void OpenForm<MiForm>() where MiForm : Form, new()
         {
             Panel pnlMain = Application.OpenForms["KockieOptimizer"].Controls["pnlMain"] as Panel;

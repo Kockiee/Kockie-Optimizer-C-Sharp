@@ -7,8 +7,8 @@
 -noprecache
 -framelimit 0
 -dx10
--width 600
--height 800
+-width 1280
+-height 720
 -fullscreen
 -ignoreDifferentVideoCard
 -anisotropicQualityLeve (0)
@@ -21,10 +21,10 @@
 -noInGameDOF
 -particleQuality (0)
 -postFX (0)
--reflectionQuality (0)
+-reflectionQuality (1)
 -SSAO (0)
 -shaderQuality (0)
 -textureQuality (0)
 -tessellation (0)
 -fxaa (0)
--shadowQuality (0)
+-shadowQuality (1)

@@ -68,7 +68,7 @@ namespace Kockie_Optimizer_Csharp
             {
                 MessageBox.Show($"Error: {ex}");
             }
-            
+
         }
 
         private void btnInstallCommonApps_Click(object sender, EventArgs e)
@@ -82,7 +82,7 @@ namespace Kockie_Optimizer_Csharp
             {
                 MessageBox.Show($"Error: {ex}");
             }
-            
+
         }
 
         private void btnRemoveCommonApps_Click(object sender, EventArgs e)
@@ -96,7 +96,7 @@ namespace Kockie_Optimizer_Csharp
             {
                 MessageBox.Show($"Error: {ex}");
             }
-            
+
         }
     }
 }
