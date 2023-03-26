@@ -64,11 +64,11 @@
             guna2HtmlLabel1.BackColor = Color.Transparent;
             guna2HtmlLabel1.Font = new Font("Mula R Black", 24F, FontStyle.Bold, GraphicsUnit.Point);
             guna2HtmlLabel1.ForeColor = SystemColors.Control;
-            guna2HtmlLabel1.Location = new Point(145, 12);
+            guna2HtmlLabel1.Location = new Point(178, 12);
             guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new Size(439, 47);
+            guna2HtmlLabel1.Size = new Size(381, 47);
             guna2HtmlLabel1.TabIndex = 15;
-            guna2HtmlLabel1.Text = "Otimizações para o Windows";
+            guna2HtmlLabel1.Text = "Otimizações para o disco";
             // 
             // btnVerifyFilesSystem
             // 
